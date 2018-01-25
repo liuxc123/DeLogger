@@ -21,6 +21,6 @@ class RootTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Dotzu test app"
+        title = "DeLogger test app"
     }
 }

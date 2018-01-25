@@ -32,20 +32,18 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
     }
 
     func didTapButton() {
-        Dotzu.sharedManager.displayedList = true
+        DeLogger.sharedManager.displayedList = true
         
         let managerTabBarController = UITabBarController()
         managerTabBarController.tabBar.barTintColor = UIColor.black
         managerTabBarController.tabBar.tintColor = Color.mainGreen
         managerTabBarController.viewControllers = getViewControllers()
         
-    
-        
         self.present(managerTabBarController, animated: true, completion: nil)
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        Dotzu.sharedManager.displayedList = false
+        DeLogger.sharedManager.displayedList = false
     }
 
     @objc func panDidFire(panner: UIPanGestureRecognizer) {
@@ -108,7 +106,7 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
     }
 
     func shouldReceive(point: CGPoint) -> Bool {
-        if Dotzu.sharedManager.displayedList {
+        if DeLogger.sharedManager.displayedList {
             return true
         }
         return self.button.frame.contains(point)

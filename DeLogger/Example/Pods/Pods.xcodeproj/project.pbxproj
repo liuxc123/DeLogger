@@ -58,7 +58,6 @@
 		A844D31D2B2169D3C395E268021185D7 /* LogCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB791F7E83C462CA7EB60219CFA0FA /* LogCode.swift */; };
 		AC499999621B1E4A999EDC9BCF253553 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D00A7A39AAD4782A376D1802DFC4A3 /* UserDefaults+.swift */; };
 		ADF7BA8026312767B9C032D1354C4162 /* DetailCrashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A293A7BA23DAD8057A725B9D49B0E35 /* DetailCrashTableViewController.swift */; };
-		AFA27066751A68A750DE435EAE1F3606 /* DotzuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147767FB70C425ECDAD71555EA765AA7 /* DotzuManager.swift */; };
 		B15A79F5A1A48D6448A9BCF120358307 /* Pods-DeLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFB0362BC6320FE77A72E90C52E7115 /* Pods-DeLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B2BC72B78EF53CCA3BA97B87A2B47669 /* CrashListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA596DE90117DCD3FD2C48E4994637 /* CrashListTableViewCell.swift */; };
 		B32ED8B9FDE0CC3C113F8140CA4B5AB1 /* LogViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6421A047CE832D7C66938340D758B62 /* LogViewNotification.swift */; };
@@ -115,7 +114,6 @@
 		0B21E7A717F4E14D3503233949AE4254 /* Application.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Application.storyboard; sourceTree = "<group>"; };
 		0EDF3EBB05C5F42BC986CFD822CCD111 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
 		0F81D47BF8A53A8012B83B2F7A24044B /* UITableView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+.swift"; path = "Source/Classes/UITableView+.swift"; sourceTree = "<group>"; };
-		147767FB70C425ECDAD71555EA765AA7 /* DotzuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotzuManager.swift; path = Source/Classes/DotzuManager.swift; sourceTree = "<group>"; };
 		16162C8000B67A3E634A3D9F3610B1F6 /* Pods-DeLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		16376A174944D5A2CF64B249893D361F /* scroll-down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "scroll-down@2x.png"; sourceTree = "<group>"; };
 		1665CFC880E5089EBDC2CD7612B21C0E /* Manager.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
@@ -407,7 +405,6 @@
 				09397D408712E602E0BA61860E8CC0A6 /* DetailResponseBodyViewController.swift */,
 				E1F49DABD15C6CFEF3D03DBE1A22A3C4 /* Device.swift */,
 				B74508D718D8A55F81C5611B26D8B597 /* DeviceModel.swift */,
-				147767FB70C425ECDAD71555EA765AA7 /* DotzuManager.swift */,
 				7A6063BDB52359256BB5360AF7BAD988 /* FilterLogTableViewController.swift */,
 				8EC245656B2C85B47AD2321FA8064D84 /* FilterNetworkTableViewController.swift */,
 				1E1E82130610A0C6847696FDA786C24E /* FilterViewControllerProtocol.swift */,
@@ -634,7 +631,6 @@
 				D4D5805F311E16F57BD5381329ABBF8A /* Device.swift in Sources */,
 				F1D71AEA201A0FB400EEF8F9 /* DeLoggerManager.swift in Sources */,
 				535FA2FC718F992E434947072EF89B11 /* DeviceModel.swift in Sources */,
-				AFA27066751A68A750DE435EAE1F3606 /* DotzuManager.swift in Sources */,
 				CFD9B99C663FF4B3249691803D3BFD89 /* FilterLogTableViewController.swift in Sources */,
 				C112A2BB1BF14E68FA16D3F34E8D9EE5 /* FilterNetworkTableViewController.swift in Sources */,
 				0786E7716AD76091148BFF1261FB6759 /* FilterViewControllerProtocol.swift in Sources */,
