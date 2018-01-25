@@ -1,0 +1,1147 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0164F541B1B6C3D434CD1A164EBA8D66 /* RequestDataHttpBodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D392695A68907270663E0B00AE5139 /* RequestDataHttpBodyTableViewCell.swift */; };
+		01F041A6829C7C6EDC16F0112E43AC50 /* tabbar-app.imageset in Resources */ = {isa = PBXBuildFile; fileRef = C8DE142B14A1D7BD698680501EFCB2BD /* tabbar-app.imageset */; };
+		02A0577341ED33A5CD3A16678528C2D9 /* InformationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B440B19464C489F94761DCEC3767C6 /* InformationsTableViewController.swift */; };
+		030595F6C59709EBED8E7ECAA2B721FF /* Logs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC6D8A14475409D9C530082634EEFF1 /* Logs.storyboard */; };
+		03C5967B87354A92F87B8B3A894E877B /* LogsSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3FD525D91B0960CB1A139763E509C /* LogsSettings.swift */; };
+		0609F00C65E5060211FE5892BB36D9E5 /* Manager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FAA957AF623383EEFC0E79304E2E7C /* Manager.storyboard */; };
+		06F6228250BE8B6FBD7963DD9B8A563E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		0AB1733A772491C4145A38E7E29C404F /* ManagerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960CFEDCC49B96785950CE52796F5E08 /* ManagerWindow.swift */; };
+		150CD34756106ABB67E09C28BC685CA5 /* FilterLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6063BDB52359256BB5360AF7BAD988 /* FilterLogTableViewController.swift */; };
+		17FD1154345E1A197E2F1D3808DD1E2B /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D00A7A39AAD4782A376D1802DFC4A3 /* UserDefaults+.swift */; };
+		1DA51706DF60A8CDA3913C95ECDA3798 /* LogViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6421A047CE832D7C66938340D758B62 /* LogViewNotification.swift */; };
+		1F12470291A5CDCFFFE89D17FF8DE4E5 /* DetailResponseBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09397D408712E602E0BA61860E8CC0A6 /* DetailResponseBodyViewController.swift */; };
+		22B1C8E0A18B39C73FED2CF691D71F37 /* ContainerFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E6F3A4C8A1D2B7B389EC0F1659B1B /* ContainerFilterViewController.swift */; };
+		26BFBD3CF8116E6C25493487E3288DD6 /* LoggerFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CF6E05004F91932DDF6EA1880EB5F2 /* LoggerFormat.swift */; };
+		26C82DA0C4C9BD2251552710CFCB16D7 /* Spam-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 0197AC55476E57D77AA374D7821F1344 /* Spam-100.png */; };
+		26DE5880473D3C442581D6977C8D9AB7 /* DeLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DD9F84E3E0F6A2ADB04CF645223092 /* DeLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EBC78A098D44A926F989C02C0DB141D /* Pods-DeLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6870658063D64CA1C49A69137FA1D34E /* Pods-DeLogger_Tests-dummy.m */; };
+		3011F699E4C0542FDAA820E8C620D5AE /* DeLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A94F93FC0ADC7083A7C6655AD92CCC1 /* DeLogger-dummy.m */; };
+		301C080EF1751C152AD71CAC05140190 /* logo.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 8AAC16EB76092E6D66331481FD39C232 /* logo.imageset */; };
+		319634775B2BD1FE713F6617583BAF27 /* LogBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443A7BCF74EA1768EE93EC011E44BA67 /* LogBadgeView.swift */; };
+		3369D0A118CA295EB58824C8E870C700 /* LoggerCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFC73B893F7E28CEAC80419A53FCAB4 /* LoggerCrash.swift */; };
+		3448BB5CC02BD342226F5A3A480576E0 /* LogCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFB791F7E83C462CA7EB60219CFA0FA /* LogCode.swift */; };
+		373267F6F1C313D5606983361D2C48F8 /* Page Overview 4-60.png in Resources */ = {isa = PBXBuildFile; fileRef = F458B2CCC6A9E845470B5EEFE927E281 /* Page Overview 4-60.png */; };
+		3DE9D0157429BD93EAE1836250B023E2 /* LogGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D60EE2483C363DFF700623FB58ABB9 /* LogGenerator.swift */; };
+		4054AFE329E16052E0070B03A6AB2570 /* LoggerNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB61FF26F3C856A520377566833B77C7 /* LoggerNetwork.swift */; };
+		43025C6ABDC303572C9BC43600122E65 /* ManagerListLogState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF37725D0AF1F5989075A203ED3DC5A /* ManagerListLogState.swift */; };
+		43199B901E2F43A526DB360752F5691A /* CrashListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BA596DE90117DCD3FD2C48E4994637 /* CrashListTableViewCell.swift */; };
+		43A96890E2FCC8928BF06456E0881B75 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55314521D2613E657CF3FB6AF4921648 /* SettingsTableViewController.swift */; };
+		45B0FEBEE0C9825B1665D1D7171F318F /* RequestHeadersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB57E4012FF740980B595E92A1B4565 /* RequestHeadersTableViewCell.swift */; };
+		4F5F9DF3282A49E2F3727AF26153D032 /* tabbar-logs.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 2A95189FDCDA8B598AB9B270E075AAAD /* tabbar-logs.imageset */; };
+		55709872AA84096A350C6590C63EAD6C /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9F4DA05A72C0F6342B154CBEF4F59 /* UITableViewCell+.swift */; };
+		561E25ABBEBFD1D96116E8F6ED97ADF2 /* ResponseDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984452BF31E7447836F527F38DC55D71 /* ResponseDataTableViewCell.swift */; };
+		5972ECA717E33BF51DD95DDB825C23D1 /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5760C2E8EC1A75C9E58D8AD462C60C /* ManagerViewController.swift */; };
+		5D10ED78564660237230BF7C46DF8606 /* DetailRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D315137CCA47AB2B66FBB13D2CE716 /* DetailRequestViewController.swift */; };
+		5D68B09C1C809E647708111C7572DF77 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA787CAB20495253DA7594F5D11288E /* NotificationCenter.swift */; };
+		6973991C39E6B38E072F87B5FBD997BA /* RequestLatencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C9FDB4378B9627ACA85FE3D4FABF18 /* RequestLatencyTableViewCell.swift */; };
+		6BA7F86818651CAFC95AAD163634A0C3 /* FilterNetworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC245656B2C85B47AD2321FA8064D84 /* FilterNetworkTableViewController.swift */; };
+		6BD422C210C1F09C37590DCC6B4EBC6F /* filter.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 7DE9ACED7DDDFA221B32F94268FDB231 /* filter.imageset */; };
+		6D7C368FB57119894D52098BCB1F3CE2 /* RequestErrorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439C5E2854D2F79226F3FAB31C197B1 /* RequestErrorTableViewCell.swift */; };
+		7A8C5F6A9400B7FCCB0106FFBC3723C1 /* LogNetworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4494C332EEC4345E8A1FA02B7A331C52 /* LogNetworkTableViewCell.swift */; };
+		7CD67F1CA7ADAEE64D71845A8F5EB11C /* ManagerListLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F573F3FCABEA5391AEE1FEF23EC65150 /* ManagerListLogViewController.swift */; };
+		82C8BD96BB45B95D6CD27AFC77B04AB1 /* scroll-down.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 0ABC49CC47126FE2C721709CEC55908D /* scroll-down.imageset */; };
+		863A96EBA5EC0A9B00954130A5609350 /* bugs-icon.imageset in Resources */ = {isa = PBXBuildFile; fileRef = AB706C4BF416005F1DB4788BF7F065F5 /* bugs-icon.imageset */; };
+		88C18920B5E81020F5EA7CB5BD873042 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39CEA665406FF5C6208EEAABE1CE38D /* Settings.storyboard */; };
+		8A8E57CE454ECE2ECB1AFDFFDFFA949D /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F49DABD15C6CFEF3D03DBE1A22A3C4 /* Device.swift */; };
+		8C553CB939EF2BB8B1CE644069DAD6B4 /* scrollDown.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D6ED7C0FCC5A8BC1AD6341D4BB93A5 /* scrollDown.png */; };
+		8F3142D203005189F3BCFDC59013643A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264BD5E3D1C0C5BB2DD34FA94E603DA2 /* Color.swift */; };
+		8FE8077039E3679947E3DEA42036A1DD /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010E06FB9EE28F2F1083D426BAA48BF7 /* Logger.swift */; };
+		9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F3C4D42D8A01E9841B578A801695ED1 /* Contents.json */; };
+		93B5FE85EDD6CA1ED4366820AD1210E4 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74508D718D8A55F81C5611B26D8B597 /* DeviceModel.swift */; };
+		9592A090B9EB491BA33410A11008F821 /* LogCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2EF4E0861D92B95346EF35183B6DFE /* LogCellProtocol.swift */; };
+		987F1E2F91AF96A39507C596D8D0232E /* Settings-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE5EFA0C9C35A8B92645EEDF2EAA7C8 /* Settings-60.png */; };
+		9A50134771CA6DA0A214D24BB56B9A11 /* LogRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02EDE881D8CB239C843C0A13A565C74 /* LogRequest.swift */; };
+		9DC769717666CE63B0E1610EA9E3C40F /* LogCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC52A2CA20C7401302695C603A8096E6 /* LogCrash.swift */; };
+		9E002A6E1C09E3AD25F8ADD0A5C97AC3 /* Pods-DeLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A741BFC64E00233FC7179117659EEDEE /* Pods-DeLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EEE77C07F94F97C11709EAC155265F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A2B3B21D0F8880D04C4494A5950AD1A5 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79809B3FB7E270EC7D79B21885A35950 /* Log.swift */; };
+		A394166439E163245649D4D1FF082328 /* ListCrashesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D8265353D36109822C2CC0D931C866 /* ListCrashesViewController.swift */; };
+		A6821E7327CADFDAA95F0FF5B5FF4B47 /* DetailCrashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A293A7BA23DAD8057A725B9D49B0E35 /* DetailCrashTableViewController.swift */; };
+		A734BFFAE216F76346A453265138E8D4 /* LogCodeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E56CA245F2AC7FD125C36413AEA99A /* LogCodeFilter.swift */; };
+		AD0258EFD7877305FF86BCF460ECC86B /* ApplicationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF90740FBEC80D238C511573A0FAE096 /* ApplicationInformation.swift */; };
+		B15A79F5A1A48D6448A9BCF120358307 /* Pods-DeLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFB0362BC6320FE77A72E90C52E7115 /* Pods-DeLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1FB759E74C1FD8462123A6EACF70E72 /* Application.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3D7DA1D5E49D929415EEE36FCF1330 /* Application.storyboard */; };
+		B1FE063BAA238D763E484E516F4CD5FB /* LogNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0F736E46A1A52452A01321E7F8BCD /* LogNotification.swift */; };
+		B3A0E4023E425E7C29B239718DAC7F3B /* LogTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EE06C28C35E91C17161C966AB062C7 /* LogTabBarViewController.swift */; };
+		B7A844BA88E96AC7C21F1B07E7FA490F /* LogHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586158653C09C99B6B463AED1601EE4 /* LogHeadView.swift */; };
+		BB56ED969891C546F1868B6C1DDDC19E /* DotzuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147767FB70C425ECDAD71555EA765AA7 /* DotzuManager.swift */; };
+		C3825A9DF191FC3CABF7531926E4E091 /* tabbar-settings.imageset in Resources */ = {isa = PBXBuildFile; fileRef = DF788761E378E496494EC56A97AF077C /* tabbar-settings.imageset */; };
+		CA51E04CA7A4843392C597DD1B29915D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 72C35D8384DD723866320B5F03EFEEC6 /* logo.png */; };
+		CD4E5B79178139BB03DBED58CABC077A /* Pods-DeLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E8037779F23629E2DE8BF0FDAF691C /* Pods-DeLogger_Example-dummy.m */; };
+		D01C13D1D2EAD6B048238F27D96112CA /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81D47BF8A53A8012B83B2F7A24044B /* UITableView+.swift */; };
+		D11D0FA660CD0B5984177CDD46076496 /* ListLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62878C3D380178CDD35ACDA4B4F5C63 /* ListLogViewModel.swift */; };
+		DA8E62F424B8B9F9B36C521516215DD2 /* Filter-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 04F01B354CFAF551069AAE861DFE63F0 /* Filter-60.png */; };
+		DB23FB863C2B0C4A998525AC8D038CC1 /* LogProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD579967BFFAFACFA75CB33B0396255 /* LogProtocol.swift */; };
+		DCBBB8589242962BF86D1415311A6173 /* Close Window Filled-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 74E18CF2A106157931251656B2598C15 /* Close Window Filled-60.png */; };
+		DD0983DDB9315A45B62D2F99B9B04464 /* LogLevelFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87625B5C217EA51B45FDEB3194FE20E /* LogLevelFilter.swift */; };
+		E139C8205C0CFECEAF004B147D32432C /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474FA8987DD4FC64C2725CE481F79A80 /* StoreManager.swift */; };
+		E2562E27FABD1FB97968365780A14FA6 /* LogResponseBodyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE6238B92F1CBD437EE4FA1A21FAD046 /* LogResponseBodyViewModel.swift */; };
+		E408D05DB15A988B8EC5D14A62E4018D /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D021D4666CBEE5C502E94222FD5CC2 /* LogLevel.swift */; };
+		EA12BF5B4C6C5CDD1B977B9AAEA2943B /* iOS App Icon Shape-60.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5DBC24B21ACDD5C0AC2C6C9E11C33D /* iOS App Icon Shape-60.png */; };
+		F048B4D6A6E407899243B7A665C618B3 /* close.imageset in Resources */ = {isa = PBXBuildFile; fileRef = 05DA5BF76C934ED4E5003C67538749B3 /* close.imageset */; };
+		F0D2EE1C025B2D58AB5912F16BE3DF88 /* FilterViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E82130610A0C6847696FDA786C24E /* FilterViewControllerProtocol.swift */; };
+		F72C854B202D3698C38DB6BAF26395C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F7FC043AC734CBFB7B79711D3F930E58 /* LogNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CF962A239E5239F61F7C297D9A12F4 /* LogNavigationViewController.swift */; };
+		FEACE82646C0369E0A6C4FF00197A12E /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9228BC648CB0C970D04DF91D13B097 /* LogTableViewCell.swift */; };
+		FF949065D7232F3110B119B8DF8660AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1069CFF3632F143557A26CEBECAFAD68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE67EF866F2B2538328987456D8BB128;
+			remoteInfo = DeLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010E06FB9EE28F2F1083D426BAA48BF7 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Classes/Logger.swift; sourceTree = "<group>"; };
+		014BB5AE48236C5CDAE4D215BCF6C52D /* Pods-DeLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeLogger_Example.modulemap"; sourceTree = "<group>"; };
+		0197AC55476E57D77AA374D7821F1344 /* Spam-100.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Spam-100.png"; sourceTree = "<group>"; };
+		030A1728627886676D05F97E4882879C /* Pods-DeLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		04F01B354CFAF551069AAE861DFE63F0 /* Filter-60.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Filter-60.png"; sourceTree = "<group>"; };
+		0586158653C09C99B6B463AED1601EE4 /* LogHeadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogHeadView.swift; path = Source/Classes/LogHeadView.swift; sourceTree = "<group>"; };
+		05DA5BF76C934ED4E5003C67538749B3 /* close.imageset */ = {isa = PBXFileReference; includeInIndex = 1; path = close.imageset; sourceTree = "<group>"; };
+		09397D408712E602E0BA61860E8CC0A6 /* DetailResponseBodyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailResponseBodyViewController.swift; path = Source/Classes/DetailResponseBodyViewController.swift; sourceTree = "<group>"; };
+		0AB57E4012FF740980B595E92A1B4565 /* RequestHeadersTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestHeadersTableViewCell.swift; path = Source/Classes/RequestHeadersTableViewCell.swift; sourceTree = "<group>"; };
+		0ABC49CC47126FE2C721709CEC55908D /* scroll-down.imageset */ = {isa = PBXFileReference; includeInIndex = 1; path = "scroll-down.imageset"; sourceTree = "<group>"; };
+		0F81D47BF8A53A8012B83B2F7A24044B /* UITableView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+.swift"; path = "Source/Classes/UITableView+.swift"; sourceTree = "<group>"; };
+		0FE5EFA0C9C35A8B92645EEDF2EAA7C8 /* Settings-60.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Settings-60.png"; sourceTree = "<group>"; };
+		147767FB70C425ECDAD71555EA765AA7 /* DotzuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotzuManager.swift; path = Source/Classes/DotzuManager.swift; sourceTree = "<group>"; };
+		16162C8000B67A3E634A3D9F3610B1F6 /* Pods-DeLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BD579967BFFAFACFA75CB33B0396255 /* LogProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogProtocol.swift; path = Source/Classes/LogProtocol.swift; sourceTree = "<group>"; };
+		1CFB0362BC6320FE77A72E90C52E7115 /* Pods-DeLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1E1E82130610A0C6847696FDA786C24E /* FilterViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterViewControllerProtocol.swift; path = Source/Classes/FilterViewControllerProtocol.swift; sourceTree = "<group>"; };
+		23D00A7A39AAD4782A376D1802DFC4A3 /* UserDefaults+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+.swift"; path = "Source/Classes/UserDefaults+.swift"; sourceTree = "<group>"; };
+		264BD5E3D1C0C5BB2DD34FA94E603DA2 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/Classes/Color.swift; sourceTree = "<group>"; };
+		28DD9F84E3E0F6A2ADB04CF645223092 /* DeLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeLogger-umbrella.h"; sourceTree = "<group>"; };
+		2A95189FDCDA8B598AB9B270E075AAAD /* tabbar-logs.imageset */ = {isa = PBXFileReference; includeInIndex = 1; path = "tabbar-logs.imageset"; sourceTree = "<group>"; };
+		2EA98D5594280531509E84EA755FCCBB /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Contents.json; sourceTree = "<group>"; };
+		34AFA7E74F1A528E91D249B541F346A6 /* Pods-DeLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		34D60EE2483C363DFF700623FB58ABB9 /* LogGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogGenerator.swift; path = Source/Classes/LogGenerator.swift; sourceTree = "<group>"; };
+		3A94F93FC0ADC7083A7C6655AD92CCC1 /* DeLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeLogger-dummy.m"; sourceTree = "<group>"; };
+		3AF9F4DA05A72C0F6342B154CBEF4F59 /* UITableViewCell+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+.swift"; path = "Source/Classes/UITableViewCell+.swift"; sourceTree = "<group>"; };
+		443A7BCF74EA1768EE93EC011E44BA67 /* LogBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogBadgeView.swift; path = Source/Classes/LogBadgeView.swift; sourceTree = "<group>"; };
+		4494C332EEC4345E8A1FA02B7A331C52 /* LogNetworkTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNetworkTableViewCell.swift; path = Source/Classes/LogNetworkTableViewCell.swift; sourceTree = "<group>"; };
+		474FA8987DD4FC64C2725CE481F79A80 /* StoreManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreManager.swift; path = Source/Classes/StoreManager.swift; sourceTree = "<group>"; };
+		47EE06C28C35E91C17161C966AB062C7 /* LogTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTabBarViewController.swift; path = Source/Classes/LogTabBarViewController.swift; sourceTree = "<group>"; };
+		4DC6D8A14475409D9C530082634EEFF1 /* Logs.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Logs.storyboard; sourceTree = "<group>"; };
+		4DF37725D0AF1F5989075A203ED3DC5A /* ManagerListLogState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerListLogState.swift; path = Source/Classes/ManagerListLogState.swift; sourceTree = "<group>"; };
+		55314521D2613E657CF3FB6AF4921648 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = Source/Classes/SettingsTableViewController.swift; sourceTree = "<group>"; };
+		59D81C641EBB585A6F6DFB1F576EF234 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Contents.json; sourceTree = "<group>"; };
+		5BB3FD525D91B0960CB1A139763E509C /* LogsSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogsSettings.swift; path = Source/Classes/LogsSettings.swift; sourceTree = "<group>"; };
+		5C19EFA667E892846B316709A87FE743 /* Pods-DeLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CADD9883966FA444970CCAECDBE8627 /* Pods-DeLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5E6E6F3A4C8A1D2B7B389EC0F1659B1B /* ContainerFilterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerFilterViewController.swift; path = Source/Classes/ContainerFilterViewController.swift; sourceTree = "<group>"; };
+		5EA787CAB20495253DA7594F5D11288E /* NotificationCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenter.swift; path = Source/Classes/NotificationCenter.swift; sourceTree = "<group>"; };
+		5F3C4D42D8A01E9841B578A801695ED1 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Contents.json; sourceTree = "<group>"; };
+		6217E5468563C81D17D50C784378B60C /* DeLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DeLogger.modulemap; sourceTree = "<group>"; };
+		6638356693E07B78F76F4BA0539C17B7 /* DeLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeLogger-prefix.pch"; sourceTree = "<group>"; };
+		6870658063D64CA1C49A69137FA1D34E /* Pods-DeLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+		69C9FDB4378B9627ACA85FE3D4FABF18 /* RequestLatencyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestLatencyTableViewCell.swift; path = Source/Classes/RequestLatencyTableViewCell.swift; sourceTree = "<group>"; };
+		6B88A59093C140297CF2C3CBDEB59DB6 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Contents.json; sourceTree = "<group>"; };
+		6D2EF4E0861D92B95346EF35183B6DFE /* LogCellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCellProtocol.swift; path = Source/Classes/LogCellProtocol.swift; sourceTree = "<group>"; };
+		6DFC73B893F7E28CEAC80419A53FCAB4 /* LoggerCrash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerCrash.swift; path = Source/Classes/LoggerCrash.swift; sourceTree = "<group>"; };
+		71815EA06F30D64F643F7FBB4AFC924F /* Pods-DeLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72C35D8384DD723866320B5F03EFEEC6 /* logo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		73CEBCF7A7D5EECF8F3E27F4F2CBFE8F /* Pods_DeLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeLogger_Example.framework; path = "Pods-DeLogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73ECB61A41C58F26CBA47EB9C4173E61 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Contents.json; sourceTree = "<group>"; };
+		74E18CF2A106157931251656B2598C15 /* Close Window Filled-60.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Close Window Filled-60.png"; sourceTree = "<group>"; };
+		79809B3FB7E270EC7D79B21885A35950 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Source/Classes/Log.swift; sourceTree = "<group>"; };
+		7A6063BDB52359256BB5360AF7BAD988 /* FilterLogTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterLogTableViewController.swift; path = Source/Classes/FilterLogTableViewController.swift; sourceTree = "<group>"; };
+		7DE9ACED7DDDFA221B32F94268FDB231 /* filter.imageset */ = {isa = PBXFileReference; includeInIndex = 1; path = filter.imageset; sourceTree = "<group>"; };
+		80D392695A68907270663E0B00AE5139 /* RequestDataHttpBodyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestDataHttpBodyTableViewCell.swift; path = Source/Classes/RequestDataHttpBodyTableViewCell.swift; sourceTree = "<group>"; };
+		81A77438AF627E7F5D5762213E802C53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A293A7BA23DAD8057A725B9D49B0E35 /* DetailCrashTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailCrashTableViewController.swift; path = Source/Classes/DetailCrashTableViewController.swift; sourceTree = "<group>"; };
+		8AAC16EB76092E6D66331481FD39C232 /* logo.imageset */ = {isa = PBXFileReference; includeInIndex = 1; path = logo.imageset; sourceTree = "<group>"; };
+		8AFF4A1D5C61C2A4CE69CFED673099FC /* Pods-DeLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Example-resources.sh"; sourceTree = "<group>"; };
+		8DD0F736E46A1A52452A01321E7F8BCD /* LogNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNotification.swift; path = Source/Classes/LogNotification.swift; sourceTree = "<group>"; };
+		8EC245656B2C85B47AD2321FA8064D84 /* FilterNetworkTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterNetworkTableViewController.swift; path = Source/Classes/FilterNetworkTableViewController.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		960CFEDCC49B96785950CE52796F5E08 /* ManagerWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerWindow.swift; path = Source/Classes/ManagerWindow.swift; sourceTree = "<group>"; };
+		96D021D4666CBEE5C502E94222FD5CC2 /* LogLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = Source/Classes/LogLevel.swift; sourceTree = "<group>"; };
+		984452BF31E7447836F527F38DC55D71 /* ResponseDataTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseDataTableViewCell.swift; path = Source/Classes/ResponseDataTableViewCell.swift; sourceTree = "<group>"; };
+		9BFB791F7E83C462CA7EB60219CFA0FA /* LogCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCode.swift; path = Source/Classes/LogCode.swift; sourceTree = "<group>"; };
+		A439C5E2854D2F79226F3FAB31C197B1 /* RequestErrorTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestErrorTableViewCell.swift; path = Source/Classes/RequestErrorTableViewCell.swift; sourceTree = "<group>"; };
+		A5CF6E05004F91932DDF6EA1880EB5F2 /* LoggerFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerFormat.swift; path = Source/Classes/LoggerFormat.swift; sourceTree = "<group>"; };
+		A5D315137CCA47AB2B66FBB13D2CE716 /* DetailRequestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailRequestViewController.swift; path = Source/Classes/DetailRequestViewController.swift; sourceTree = "<group>"; };
+		A6B440B19464C489F94761DCEC3767C6 /* InformationsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InformationsTableViewController.swift; path = Source/Classes/InformationsTableViewController.swift; sourceTree = "<group>"; };
+		A7312BE91F3EDB3B10DCA8DDC5006780 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Contents.json; sourceTree = "<group>"; };
+		A741BFC64E00233FC7179117659EEDEE /* Pods-DeLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		A87625B5C217EA51B45FDEB3194FE20E /* LogLevelFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevelFilter.swift; path = Source/Classes/LogLevelFilter.swift; sourceTree = "<group>"; };
+		AAB738FF7368CE59BECB4F67FB3D789D /* Pods-DeLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AB706C4BF416005F1DB4788BF7F065F5 /* bugs-icon.imageset */ = {isa = PBXFileReference; includeInIndex = 1; path = "bugs-icon.imageset"; sourceTree = "<group>"; };
+		ACB7CEFB7FD49057A657FBB43D158A12 /* DeLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeLogger.framework; path = DeLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E56CA245F2AC7FD125C36413AEA99A /* LogCodeFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCodeFilter.swift; path = Source/Classes/LogCodeFilter.swift; sourceTree = "<group>"; };
+		B1BDBDDFCA1F6CF7B592020C31425018 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B22AEE6881E80BE4A3E85CDCDEAFD938 /* Pods-DeLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B2DBB9E0140C7DA38F430027D9BFD126 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Contents.json; sourceTree = "<group>"; };
+		B3FAA957AF623383EEFC0E79304E2E7C /* Manager.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
+		B62878C3D380178CDD35ACDA4B4F5C63 /* ListLogViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListLogViewModel.swift; path = Source/Classes/ListLogViewModel.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B74508D718D8A55F81C5611B26D8B597 /* DeviceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceModel.swift; path = Source/Classes/DeviceModel.swift; sourceTree = "<group>"; };
+		BB9228BC648CB0C970D04DF91D13B097 /* LogTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTableViewCell.swift; path = Source/Classes/LogTableViewCell.swift; sourceTree = "<group>"; };
+		BCD8A84F7FA4B9558AC108BACE9EEB55 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Contents.json; sourceTree = "<group>"; };
+		C2A97A6379A0F972371159DE71B5F8D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39CEA665406FF5C6208EEAABE1CE38D /* Settings.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		C6421A047CE832D7C66938340D758B62 /* LogViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogViewNotification.swift; path = Source/Classes/LogViewNotification.swift; sourceTree = "<group>"; };
+		C8DE142B14A1D7BD698680501EFCB2BD /* tabbar-app.imageset */ = {isa = PBXFileReference; includeInIndex = 1; path = "tabbar-app.imageset"; sourceTree = "<group>"; };
+		CC5760C2E8EC1A75C9E58D8AD462C60C /* ManagerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerViewController.swift; path = Source/Classes/ManagerViewController.swift; sourceTree = "<group>"; };
+		D02EDE881D8CB239C843C0A13A565C74 /* LogRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogRequest.swift; path = Source/Classes/LogRequest.swift; sourceTree = "<group>"; };
+		D1561979EDA3D353BD4E140E37F97AFB /* Pods-DeLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Tests-resources.sh"; sourceTree = "<group>"; };
+		D5E8037779F23629E2DE8BF0FDAF691C /* Pods-DeLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA2E707306B8B5B7D9F565AF248CD187 /* Pods-DeLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		DAFC9A1606E0E5FF49086D9866E8D25C /* Pods-DeLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DF788761E378E496494EC56A97AF077C /* tabbar-settings.imageset */ = {isa = PBXFileReference; includeInIndex = 1; path = "tabbar-settings.imageset"; sourceTree = "<group>"; };
+		DF90740FBEC80D238C511573A0FAE096 /* ApplicationInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationInformation.swift; path = Source/Classes/ApplicationInformation.swift; sourceTree = "<group>"; };
+		E0BA596DE90117DCD3FD2C48E4994637 /* CrashListTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrashListTableViewCell.swift; path = Source/Classes/CrashListTableViewCell.swift; sourceTree = "<group>"; };
+		E1F49DABD15C6CFEF3D03DBE1A22A3C4 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Source/Classes/Device.swift; sourceTree = "<group>"; };
+		E2CF962A239E5239F61F7C297D9A12F4 /* LogNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNavigationViewController.swift; path = Source/Classes/LogNavigationViewController.swift; sourceTree = "<group>"; };
+		E6D6ED7C0FCC5A8BC1AD6341D4BB93A5 /* scrollDown.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = scrollDown.png; sourceTree = "<group>"; };
+		E9D86B6413A132D1B2D0D388F25D149B /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Contents.json; sourceTree = "<group>"; };
+		EC52A2CA20C7401302695C603A8096E6 /* LogCrash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCrash.swift; path = Source/Classes/LogCrash.swift; sourceTree = "<group>"; };
+		EE3D7DA1D5E49D929415EEE36FCF1330 /* Application.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Application.storyboard; sourceTree = "<group>"; };
+		EE5DBC24B21ACDD5C0AC2C6C9E11C33D /* iOS App Icon Shape-60.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "iOS App Icon Shape-60.png"; sourceTree = "<group>"; };
+		F16C6D5C08C87B7FAF2F2EEAEAD27379 /* Pods_DeLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeLogger_Tests.framework; path = "Pods-DeLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D8265353D36109822C2CC0D931C866 /* ListCrashesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCrashesViewController.swift; path = Source/Classes/ListCrashesViewController.swift; sourceTree = "<group>"; };
+		F458B2CCC6A9E845470B5EEFE927E281 /* Page Overview 4-60.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "Page Overview 4-60.png"; sourceTree = "<group>"; };
+		F573F3FCABEA5391AEE1FEF23EC65150 /* ManagerListLogViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerListLogViewController.swift; path = Source/Classes/ManagerListLogViewController.swift; sourceTree = "<group>"; };
+		F9145D654A492C398876ABB3B0C93E7A /* DeLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeLogger.xcconfig; sourceTree = "<group>"; };
+		FB61FF26F3C856A520377566833B77C7 /* LoggerNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerNetwork.swift; path = Source/Classes/LoggerNetwork.swift; sourceTree = "<group>"; };
+		FDF57B9B7AA856B146A864B404F72415 /* Pods-DeLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE6238B92F1CBD437EE4FA1A21FAD046 /* LogResponseBodyViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogResponseBodyViewModel.swift; path = Source/Classes/LogResponseBodyViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C912E7A28AA88E4A9F586AC26EC5707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEE77C07F94F97C11709EAC155265F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A9010339D4006BA5BEEDC8C9ED0057 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72C854B202D3698C38DB6BAF26395C4 /* Foundation.framework in Frameworks */,
+				FF949065D7232F3110B119B8DF8660AE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFE9037064CC6D0245EB1E22635C731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F6228250BE8B6FBD7963DD9B8A563E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D1DF3BA41DFD46C2FDE2BA748AE01A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACB7CEFB7FD49057A657FBB43D158A12 /* DeLogger.framework */,
+				73CEBCF7A7D5EECF8F3E27F4F2CBFE8F /* Pods_DeLogger_Example.framework */,
+				F16C6D5C08C87B7FAF2F2EEAEAD27379 /* Pods_DeLogger_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BF9BB690735E30EEA26C5C81F72A27B /* tabbar-app.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				2EA98D5594280531509E84EA755FCCBB /* Contents.json */,
+				EE5DBC24B21ACDD5C0AC2C6C9E11C33D /* iOS App Icon Shape-60.png */,
+			);
+			name = "tabbar-app.imageset";
+			path = "tabbar-app.imageset";
+			sourceTree = "<group>";
+		};
+		2E0ADF69EA0B978CFCBCCABDD3C646E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63932C5C1B4962F38FAD085D0D11C424 /* Pods-DeLogger_Example */,
+				BB658ECB920EE58C1E8C736AFE2022BC /* Pods-DeLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		43ED099BCDE9D37448CEF251A709CCCE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F53E10E728544AE09F086F78A98E8B66 /* DeLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		54A4FBBDD8540415C648BE6A62793562 /* tabbar-settings.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				5F3C4D42D8A01E9841B578A801695ED1 /* Contents.json */,
+				0FE5EFA0C9C35A8B92645EEDF2EAA7C8 /* Settings-60.png */,
+			);
+			name = "tabbar-settings.imageset";
+			path = "tabbar-settings.imageset";
+			sourceTree = "<group>";
+		};
+		602E8413095606D4060DBE97C778FA85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6217E5468563C81D17D50C784378B60C /* DeLogger.modulemap */,
+				F9145D654A492C398876ABB3B0C93E7A /* DeLogger.xcconfig */,
+				3A94F93FC0ADC7083A7C6655AD92CCC1 /* DeLogger-dummy.m */,
+				6638356693E07B78F76F4BA0539C17B7 /* DeLogger-prefix.pch */,
+				28DD9F84E3E0F6A2ADB04CF645223092 /* DeLogger-umbrella.h */,
+				B1BDBDDFCA1F6CF7B592020C31425018 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DeLogger";
+			sourceTree = "<group>";
+		};
+		63932C5C1B4962F38FAD085D0D11C424 /* Pods-DeLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C2A97A6379A0F972371159DE71B5F8D1 /* Info.plist */,
+				014BB5AE48236C5CDAE4D215BCF6C52D /* Pods-DeLogger_Example.modulemap */,
+				5C19EFA667E892846B316709A87FE743 /* Pods-DeLogger_Example-acknowledgements.markdown */,
+				16162C8000B67A3E634A3D9F3610B1F6 /* Pods-DeLogger_Example-acknowledgements.plist */,
+				D5E8037779F23629E2DE8BF0FDAF691C /* Pods-DeLogger_Example-dummy.m */,
+				AAB738FF7368CE59BECB4F67FB3D789D /* Pods-DeLogger_Example-frameworks.sh */,
+				8AFF4A1D5C61C2A4CE69CFED673099FC /* Pods-DeLogger_Example-resources.sh */,
+				A741BFC64E00233FC7179117659EEDEE /* Pods-DeLogger_Example-umbrella.h */,
+				DAFC9A1606E0E5FF49086D9866E8D25C /* Pods-DeLogger_Example.debug.xcconfig */,
+				5CADD9883966FA444970CCAECDBE8627 /* Pods-DeLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-DeLogger_Example";
+			path = "Target Support Files/Pods-DeLogger_Example";
+			sourceTree = "<group>";
+		};
+		650E3FCE72308633DEED39775FA36EEA /* bugs-icon.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				59D81C641EBB585A6F6DFB1F576EF234 /* Contents.json */,
+				0197AC55476E57D77AA374D7821F1344 /* Spam-100.png */,
+			);
+			name = "bugs-icon.imageset";
+			path = "bugs-icon.imageset";
+			sourceTree = "<group>";
+		};
+		65AD20BB621C0240FCA5C57348EDD7F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7A74288E9BA4F773A18103341AA6F23 /* Assets */,
+				F72D68A0FB1949C9A1F7463B898F4BC4 /* Classes */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		76FFA9F8EC9E4A838CDE5336A36F2134 /* logo.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				BCD8A84F7FA4B9558AC108BACE9EEB55 /* Contents.json */,
+				72C35D8384DD723866320B5F03EFEEC6 /* logo.png */,
+			);
+			name = logo.imageset;
+			path = logo.imageset;
+			sourceTree = "<group>";
+		};
+		7BDA4A7FC70556DCDA3A56ABA0E3C5BB /* close.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				74E18CF2A106157931251656B2598C15 /* Close Window Filled-60.png */,
+				B2DBB9E0140C7DA38F430027D9BFD126 /* Contents.json */,
+			);
+			name = close.imageset;
+			path = close.imageset;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				43ED099BCDE9D37448CEF251A709CCCE /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0D1DF3BA41DFD46C2FDE2BA748AE01A3 /* Products */,
+				2E0ADF69EA0B978CFCBCCABDD3C646E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84968B3AF54691C41F1D0570879B2EC4 /* tabbar-logs.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				A7312BE91F3EDB3B10DCA8DDC5006780 /* Contents.json */,
+				F458B2CCC6A9E845470B5EEFE927E281 /* Page Overview 4-60.png */,
+			);
+			name = "tabbar-logs.imageset";
+			path = "tabbar-logs.imageset";
+			sourceTree = "<group>";
+		};
+		999595160E55AA007B2FB56AB8AB1A90 /* filter.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				E9D86B6413A132D1B2D0D388F25D149B /* Contents.json */,
+				04F01B354CFAF551069AAE861DFE63F0 /* Filter-60.png */,
+			);
+			name = filter.imageset;
+			path = filter.imageset;
+			sourceTree = "<group>";
+		};
+		9B87F734B3ED9201819059890B5269B9 /* scroll-down.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				6B88A59093C140297CF2C3CBDEB59DB6 /* Contents.json */,
+				E6D6ED7C0FCC5A8BC1AD6341D4BB93A5 /* scrollDown.png */,
+			);
+			name = "scroll-down.imageset";
+			path = "scroll-down.imageset";
+			sourceTree = "<group>";
+		};
+		A7A74288E9BA4F773A18103341AA6F23 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				AB706C4BF416005F1DB4788BF7F065F5 /* bugs-icon.imageset */,
+				05DA5BF76C934ED4E5003C67538749B3 /* close.imageset */,
+				73ECB61A41C58F26CBA47EB9C4173E61 /* Contents.json */,
+				7DE9ACED7DDDFA221B32F94268FDB231 /* filter.imageset */,
+				8AAC16EB76092E6D66331481FD39C232 /* logo.imageset */,
+				0ABC49CC47126FE2C721709CEC55908D /* scroll-down.imageset */,
+				C8DE142B14A1D7BD698680501EFCB2BD /* tabbar-app.imageset */,
+				2A95189FDCDA8B598AB9B270E075AAAD /* tabbar-logs.imageset */,
+				DF788761E378E496494EC56A97AF077C /* tabbar-settings.imageset */,
+				650E3FCE72308633DEED39775FA36EEA /* bugs-icon.imageset */,
+				7BDA4A7FC70556DCDA3A56ABA0E3C5BB /* close.imageset */,
+				999595160E55AA007B2FB56AB8AB1A90 /* filter.imageset */,
+				76FFA9F8EC9E4A838CDE5336A36F2134 /* logo.imageset */,
+				9B87F734B3ED9201819059890B5269B9 /* scroll-down.imageset */,
+				1BF9BB690735E30EEA26C5C81F72A27B /* tabbar-app.imageset */,
+				84968B3AF54691C41F1D0570879B2EC4 /* tabbar-logs.imageset */,
+				54A4FBBDD8540415C648BE6A62793562 /* tabbar-settings.imageset */,
+			);
+			name = Assets;
+			path = Source/Assets;
+			sourceTree = "<group>";
+		};
+		BB658ECB920EE58C1E8C736AFE2022BC /* Pods-DeLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				81A77438AF627E7F5D5762213E802C53 /* Info.plist */,
+				34AFA7E74F1A528E91D249B541F346A6 /* Pods-DeLogger_Tests.modulemap */,
+				71815EA06F30D64F643F7FBB4AFC924F /* Pods-DeLogger_Tests-acknowledgements.markdown */,
+				030A1728627886676D05F97E4882879C /* Pods-DeLogger_Tests-acknowledgements.plist */,
+				6870658063D64CA1C49A69137FA1D34E /* Pods-DeLogger_Tests-dummy.m */,
+				DA2E707306B8B5B7D9F565AF248CD187 /* Pods-DeLogger_Tests-frameworks.sh */,
+				D1561979EDA3D353BD4E140E37F97AFB /* Pods-DeLogger_Tests-resources.sh */,
+				1CFB0362BC6320FE77A72E90C52E7115 /* Pods-DeLogger_Tests-umbrella.h */,
+				FDF57B9B7AA856B146A864B404F72415 /* Pods-DeLogger_Tests.debug.xcconfig */,
+				B22AEE6881E80BE4A3E85CDCDEAFD938 /* Pods-DeLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-DeLogger_Tests";
+			path = "Target Support Files/Pods-DeLogger_Tests";
+			sourceTree = "<group>";
+		};
+		F53E10E728544AE09F086F78A98E8B66 /* DeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				DF90740FBEC80D238C511573A0FAE096 /* ApplicationInformation.swift */,
+				264BD5E3D1C0C5BB2DD34FA94E603DA2 /* Color.swift */,
+				5E6E6F3A4C8A1D2B7B389EC0F1659B1B /* ContainerFilterViewController.swift */,
+				E0BA596DE90117DCD3FD2C48E4994637 /* CrashListTableViewCell.swift */,
+				8A293A7BA23DAD8057A725B9D49B0E35 /* DetailCrashTableViewController.swift */,
+				A5D315137CCA47AB2B66FBB13D2CE716 /* DetailRequestViewController.swift */,
+				09397D408712E602E0BA61860E8CC0A6 /* DetailResponseBodyViewController.swift */,
+				E1F49DABD15C6CFEF3D03DBE1A22A3C4 /* Device.swift */,
+				B74508D718D8A55F81C5611B26D8B597 /* DeviceModel.swift */,
+				147767FB70C425ECDAD71555EA765AA7 /* DotzuManager.swift */,
+				7A6063BDB52359256BB5360AF7BAD988 /* FilterLogTableViewController.swift */,
+				8EC245656B2C85B47AD2321FA8064D84 /* FilterNetworkTableViewController.swift */,
+				1E1E82130610A0C6847696FDA786C24E /* FilterViewControllerProtocol.swift */,
+				A6B440B19464C489F94761DCEC3767C6 /* InformationsTableViewController.swift */,
+				F2D8265353D36109822C2CC0D931C866 /* ListCrashesViewController.swift */,
+				B62878C3D380178CDD35ACDA4B4F5C63 /* ListLogViewModel.swift */,
+				79809B3FB7E270EC7D79B21885A35950 /* Log.swift */,
+				443A7BCF74EA1768EE93EC011E44BA67 /* LogBadgeView.swift */,
+				6D2EF4E0861D92B95346EF35183B6DFE /* LogCellProtocol.swift */,
+				9BFB791F7E83C462CA7EB60219CFA0FA /* LogCode.swift */,
+				B0E56CA245F2AC7FD125C36413AEA99A /* LogCodeFilter.swift */,
+				EC52A2CA20C7401302695C603A8096E6 /* LogCrash.swift */,
+				34D60EE2483C363DFF700623FB58ABB9 /* LogGenerator.swift */,
+				010E06FB9EE28F2F1083D426BAA48BF7 /* Logger.swift */,
+				6DFC73B893F7E28CEAC80419A53FCAB4 /* LoggerCrash.swift */,
+				A5CF6E05004F91932DDF6EA1880EB5F2 /* LoggerFormat.swift */,
+				FB61FF26F3C856A520377566833B77C7 /* LoggerNetwork.swift */,
+				0586158653C09C99B6B463AED1601EE4 /* LogHeadView.swift */,
+				96D021D4666CBEE5C502E94222FD5CC2 /* LogLevel.swift */,
+				A87625B5C217EA51B45FDEB3194FE20E /* LogLevelFilter.swift */,
+				E2CF962A239E5239F61F7C297D9A12F4 /* LogNavigationViewController.swift */,
+				4494C332EEC4345E8A1FA02B7A331C52 /* LogNetworkTableViewCell.swift */,
+				8DD0F736E46A1A52452A01321E7F8BCD /* LogNotification.swift */,
+				1BD579967BFFAFACFA75CB33B0396255 /* LogProtocol.swift */,
+				D02EDE881D8CB239C843C0A13A565C74 /* LogRequest.swift */,
+				FE6238B92F1CBD437EE4FA1A21FAD046 /* LogResponseBodyViewModel.swift */,
+				5BB3FD525D91B0960CB1A139763E509C /* LogsSettings.swift */,
+				47EE06C28C35E91C17161C966AB062C7 /* LogTabBarViewController.swift */,
+				BB9228BC648CB0C970D04DF91D13B097 /* LogTableViewCell.swift */,
+				C6421A047CE832D7C66938340D758B62 /* LogViewNotification.swift */,
+				4DF37725D0AF1F5989075A203ED3DC5A /* ManagerListLogState.swift */,
+				F573F3FCABEA5391AEE1FEF23EC65150 /* ManagerListLogViewController.swift */,
+				CC5760C2E8EC1A75C9E58D8AD462C60C /* ManagerViewController.swift */,
+				960CFEDCC49B96785950CE52796F5E08 /* ManagerWindow.swift */,
+				5EA787CAB20495253DA7594F5D11288E /* NotificationCenter.swift */,
+				80D392695A68907270663E0B00AE5139 /* RequestDataHttpBodyTableViewCell.swift */,
+				A439C5E2854D2F79226F3FAB31C197B1 /* RequestErrorTableViewCell.swift */,
+				0AB57E4012FF740980B595E92A1B4565 /* RequestHeadersTableViewCell.swift */,
+				69C9FDB4378B9627ACA85FE3D4FABF18 /* RequestLatencyTableViewCell.swift */,
+				984452BF31E7447836F527F38DC55D71 /* ResponseDataTableViewCell.swift */,
+				55314521D2613E657CF3FB6AF4921648 /* SettingsTableViewController.swift */,
+				474FA8987DD4FC64C2725CE481F79A80 /* StoreManager.swift */,
+				0F81D47BF8A53A8012B83B2F7A24044B /* UITableView+.swift */,
+				3AF9F4DA05A72C0F6342B154CBEF4F59 /* UITableViewCell+.swift */,
+				23D00A7A39AAD4782A376D1802DFC4A3 /* UserDefaults+.swift */,
+				65AD20BB621C0240FCA5C57348EDD7F8 /* Resources */,
+				602E8413095606D4060DBE97C778FA85 /* Support Files */,
+			);
+			name = DeLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F72D68A0FB1949C9A1F7463B898F4BC4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EE3D7DA1D5E49D929415EEE36FCF1330 /* Application.storyboard */,
+				4DC6D8A14475409D9C530082634EEFF1 /* Logs.storyboard */,
+				B3FAA957AF623383EEFC0E79304E2E7C /* Manager.storyboard */,
+				C39CEA665406FF5C6208EEAABE1CE38D /* Settings.storyboard */,
+			);
+			name = Classes;
+			path = Source/Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41BD0599554C01F6FEABA5245F0CC730 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15A79F5A1A48D6448A9BCF120358307 /* Pods-DeLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49A4024815304AFCAC13168D4C6E6973 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E002A6E1C09E3AD25F8ADD0A5C97AC3 /* Pods-DeLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F69361B8D5BC89FDFB44445EA1F56F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26DE5880473D3C442581D6977C8D9AB7 /* DeLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		373F4D0FCAC11EFEE77B94F6698B1100 /* Pods-DeLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF75CF356E81FEA74E3EFF95436CC65 /* Build configuration list for PBXNativeTarget "Pods-DeLogger_Example" */;
+			buildPhases = (
+				9A4B279EEBF24A63F823C11099F5306A /* Sources */,
+				1C912E7A28AA88E4A9F586AC26EC5707 /* Frameworks */,
+				49A4024815304AFCAC13168D4C6E6973 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1969B26E38271DE24B59C4807245834 /* PBXTargetDependency */,
+			);
+			name = "Pods-DeLogger_Example";
+			productName = "Pods-DeLogger_Example";
+			productReference = 73CEBCF7A7D5EECF8F3E27F4F2CBFE8F /* Pods_DeLogger_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE67EF866F2B2538328987456D8BB128 /* DeLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B68CFC5DC3F333576B761FC12ADC1F1 /* Build configuration list for PBXNativeTarget "DeLogger" */;
+			buildPhases = (
+				82C1BA6D877E703081DACE792DE0F71C /* Sources */,
+				C1A9010339D4006BA5BEEDC8C9ED0057 /* Frameworks */,
+				39FE5BEAD59A18ED944D8F7F1B99B3E4 /* Resources */,
+				B2F69361B8D5BC89FDFB44445EA1F56F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeLogger;
+			productName = DeLogger;
+			productReference = ACB7CEFB7FD49057A657FBB43D158A12 /* DeLogger.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E5359472D8187DBCA533FF41A80AC31A /* Pods-DeLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5386D7FC3A44D3A7DD31E8B39114D34A /* Build configuration list for PBXNativeTarget "Pods-DeLogger_Tests" */;
+			buildPhases = (
+				13C5854D31FAA117FACFB208A0ECD600 /* Sources */,
+				FAFE9037064CC6D0245EB1E22635C731 /* Frameworks */,
+				41BD0599554C01F6FEABA5245F0CC730 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DeLogger_Tests";
+			productName = "Pods-DeLogger_Tests";
+			productReference = F16C6D5C08C87B7FAF2F2EEAEAD27379 /* Pods_DeLogger_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0D1DF3BA41DFD46C2FDE2BA748AE01A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE67EF866F2B2538328987456D8BB128 /* DeLogger */,
+				373F4D0FCAC11EFEE77B94F6698B1100 /* Pods-DeLogger_Example */,
+				E5359472D8187DBCA533FF41A80AC31A /* Pods-DeLogger_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39FE5BEAD59A18ED944D8F7F1B99B3E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1FB759E74C1FD8462123A6EACF70E72 /* Application.storyboard in Resources */,
+				863A96EBA5EC0A9B00954130A5609350 /* bugs-icon.imageset in Resources */,
+				DCBBB8589242962BF86D1415311A6173 /* Close Window Filled-60.png in Resources */,
+				F048B4D6A6E407899243B7A665C618B3 /* close.imageset in Resources */,
+				9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */,
+				9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */,
+				9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */,
+				9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */,
+				9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */,
+				9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */,
+				9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */,
+				9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */,
+				9135AAC3286F1D87B93087736678DED4 /* Contents.json in Resources */,
+				DA8E62F424B8B9F9B36C521516215DD2 /* Filter-60.png in Resources */,
+				6BD422C210C1F09C37590DCC6B4EBC6F /* filter.imageset in Resources */,
+				EA12BF5B4C6C5CDD1B977B9AAEA2943B /* iOS App Icon Shape-60.png in Resources */,
+				301C080EF1751C152AD71CAC05140190 /* logo.imageset in Resources */,
+				CA51E04CA7A4843392C597DD1B29915D /* logo.png in Resources */,
+				030595F6C59709EBED8E7ECAA2B721FF /* Logs.storyboard in Resources */,
+				0609F00C65E5060211FE5892BB36D9E5 /* Manager.storyboard in Resources */,
+				373267F6F1C313D5606983361D2C48F8 /* Page Overview 4-60.png in Resources */,
+				82C8BD96BB45B95D6CD27AFC77B04AB1 /* scroll-down.imageset in Resources */,
+				8C553CB939EF2BB8B1CE644069DAD6B4 /* scrollDown.png in Resources */,
+				987F1E2F91AF96A39507C596D8D0232E /* Settings-60.png in Resources */,
+				88C18920B5E81020F5EA7CB5BD873042 /* Settings.storyboard in Resources */,
+				26C82DA0C4C9BD2251552710CFCB16D7 /* Spam-100.png in Resources */,
+				01F041A6829C7C6EDC16F0112E43AC50 /* tabbar-app.imageset in Resources */,
+				4F5F9DF3282A49E2F3727AF26153D032 /* tabbar-logs.imageset in Resources */,
+				C3825A9DF191FC3CABF7531926E4E091 /* tabbar-settings.imageset in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13C5854D31FAA117FACFB208A0ECD600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EBC78A098D44A926F989C02C0DB141D /* Pods-DeLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C1BA6D877E703081DACE792DE0F71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0258EFD7877305FF86BCF460ECC86B /* ApplicationInformation.swift in Sources */,
+				8F3142D203005189F3BCFDC59013643A /* Color.swift in Sources */,
+				22B1C8E0A18B39C73FED2CF691D71F37 /* ContainerFilterViewController.swift in Sources */,
+				43199B901E2F43A526DB360752F5691A /* CrashListTableViewCell.swift in Sources */,
+				3011F699E4C0542FDAA820E8C620D5AE /* DeLogger-dummy.m in Sources */,
+				A6821E7327CADFDAA95F0FF5B5FF4B47 /* DetailCrashTableViewController.swift in Sources */,
+				5D10ED78564660237230BF7C46DF8606 /* DetailRequestViewController.swift in Sources */,
+				1F12470291A5CDCFFFE89D17FF8DE4E5 /* DetailResponseBodyViewController.swift in Sources */,
+				8A8E57CE454ECE2ECB1AFDFFDFFA949D /* Device.swift in Sources */,
+				93B5FE85EDD6CA1ED4366820AD1210E4 /* DeviceModel.swift in Sources */,
+				BB56ED969891C546F1868B6C1DDDC19E /* DotzuManager.swift in Sources */,
+				150CD34756106ABB67E09C28BC685CA5 /* FilterLogTableViewController.swift in Sources */,
+				6BA7F86818651CAFC95AAD163634A0C3 /* FilterNetworkTableViewController.swift in Sources */,
+				F0D2EE1C025B2D58AB5912F16BE3DF88 /* FilterViewControllerProtocol.swift in Sources */,
+				02A0577341ED33A5CD3A16678528C2D9 /* InformationsTableViewController.swift in Sources */,
+				A394166439E163245649D4D1FF082328 /* ListCrashesViewController.swift in Sources */,
+				D11D0FA660CD0B5984177CDD46076496 /* ListLogViewModel.swift in Sources */,
+				A2B3B21D0F8880D04C4494A5950AD1A5 /* Log.swift in Sources */,
+				319634775B2BD1FE713F6617583BAF27 /* LogBadgeView.swift in Sources */,
+				9592A090B9EB491BA33410A11008F821 /* LogCellProtocol.swift in Sources */,
+				3448BB5CC02BD342226F5A3A480576E0 /* LogCode.swift in Sources */,
+				A734BFFAE216F76346A453265138E8D4 /* LogCodeFilter.swift in Sources */,
+				9DC769717666CE63B0E1610EA9E3C40F /* LogCrash.swift in Sources */,
+				3DE9D0157429BD93EAE1836250B023E2 /* LogGenerator.swift in Sources */,
+				8FE8077039E3679947E3DEA42036A1DD /* Logger.swift in Sources */,
+				3369D0A118CA295EB58824C8E870C700 /* LoggerCrash.swift in Sources */,
+				26BFBD3CF8116E6C25493487E3288DD6 /* LoggerFormat.swift in Sources */,
+				4054AFE329E16052E0070B03A6AB2570 /* LoggerNetwork.swift in Sources */,
+				B7A844BA88E96AC7C21F1B07E7FA490F /* LogHeadView.swift in Sources */,
+				E408D05DB15A988B8EC5D14A62E4018D /* LogLevel.swift in Sources */,
+				DD0983DDB9315A45B62D2F99B9B04464 /* LogLevelFilter.swift in Sources */,
+				F7FC043AC734CBFB7B79711D3F930E58 /* LogNavigationViewController.swift in Sources */,
+				7A8C5F6A9400B7FCCB0106FFBC3723C1 /* LogNetworkTableViewCell.swift in Sources */,
+				B1FE063BAA238D763E484E516F4CD5FB /* LogNotification.swift in Sources */,
+				DB23FB863C2B0C4A998525AC8D038CC1 /* LogProtocol.swift in Sources */,
+				9A50134771CA6DA0A214D24BB56B9A11 /* LogRequest.swift in Sources */,
+				E2562E27FABD1FB97968365780A14FA6 /* LogResponseBodyViewModel.swift in Sources */,
+				03C5967B87354A92F87B8B3A894E877B /* LogsSettings.swift in Sources */,
+				B3A0E4023E425E7C29B239718DAC7F3B /* LogTabBarViewController.swift in Sources */,
+				FEACE82646C0369E0A6C4FF00197A12E /* LogTableViewCell.swift in Sources */,
+				1DA51706DF60A8CDA3913C95ECDA3798 /* LogViewNotification.swift in Sources */,
+				43025C6ABDC303572C9BC43600122E65 /* ManagerListLogState.swift in Sources */,
+				7CD67F1CA7ADAEE64D71845A8F5EB11C /* ManagerListLogViewController.swift in Sources */,
+				5972ECA717E33BF51DD95DDB825C23D1 /* ManagerViewController.swift in Sources */,
+				0AB1733A772491C4145A38E7E29C404F /* ManagerWindow.swift in Sources */,
+				5D68B09C1C809E647708111C7572DF77 /* NotificationCenter.swift in Sources */,
+				0164F541B1B6C3D434CD1A164EBA8D66 /* RequestDataHttpBodyTableViewCell.swift in Sources */,
+				6D7C368FB57119894D52098BCB1F3CE2 /* RequestErrorTableViewCell.swift in Sources */,
+				45B0FEBEE0C9825B1665D1D7171F318F /* RequestHeadersTableViewCell.swift in Sources */,
+				6973991C39E6B38E072F87B5FBD997BA /* RequestLatencyTableViewCell.swift in Sources */,
+				561E25ABBEBFD1D96116E8F6ED97ADF2 /* ResponseDataTableViewCell.swift in Sources */,
+				43A96890E2FCC8928BF06456E0881B75 /* SettingsTableViewController.swift in Sources */,
+				E139C8205C0CFECEAF004B147D32432C /* StoreManager.swift in Sources */,
+				D01C13D1D2EAD6B048238F27D96112CA /* UITableView+.swift in Sources */,
+				55709872AA84096A350C6590C63EAD6C /* UITableViewCell+.swift in Sources */,
+				17FD1154345E1A197E2F1D3808DD1E2B /* UserDefaults+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4B279EEBF24A63F823C11099F5306A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4E5B79178139BB03DBED58CABC077A /* Pods-DeLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1969B26E38271DE24B59C4807245834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeLogger;
+			target = CE67EF866F2B2538328987456D8BB128 /* DeLogger */;
+			targetProxy = 1069CFF3632F143557A26CEBECAFAD68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04B31F96B9E61657866596CBB95E0024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22AEE6881E80BE4A3E85CDCDEAFD938 /* Pods-DeLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeLogger_Tests/Pods-DeLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeLogger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3E22EDE684B9FB743C092D70D87B6EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9145D654A492C398876ABB3B0C93E7A /* DeLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeLogger/DeLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeLogger/DeLogger.modulemap";
+				PRODUCT_NAME = DeLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		609D8D414ACC495D645931EDAFA8889B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF57B9B7AA856B146A864B404F72415 /* Pods-DeLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeLogger_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeLogger_Tests/Pods-DeLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeLogger_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A49EF263DF505CF78BC8AEAE61557F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CADD9883966FA444970CCAECDBE8627 /* Pods-DeLogger_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeLogger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeLogger_Example/Pods-DeLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeLogger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4C32E0FCDFD956F5AD8ABF860D555B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9145D654A492C398876ABB3B0C93E7A /* DeLogger.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeLogger/DeLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeLogger/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeLogger/DeLogger.modulemap";
+				PRODUCT_NAME = DeLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E037AB03AF28F76D12DC20AF49C3DA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFC9A1606E0E5FF49086D9866E8D25C /* Pods-DeLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DeLogger_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DeLogger_Example/Pods-DeLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DeLogger_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B68CFC5DC3F333576B761FC12ADC1F1 /* Build configuration list for PBXNativeTarget "DeLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E22EDE684B9FB743C092D70D87B6EA9 /* Debug */,
+				A4C32E0FCDFD956F5AD8ABF860D555B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5386D7FC3A44D3A7DD31E8B39114D34A /* Build configuration list for PBXNativeTarget "Pods-DeLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				609D8D414ACC495D645931EDAFA8889B /* Debug */,
+				04B31F96B9E61657866596CBB95E0024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF75CF356E81FEA74E3EFF95436CC65 /* Build configuration list for PBXNativeTarget "Pods-DeLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E037AB03AF28F76D12DC20AF49C3DA16 /* Debug */,
+				A49EF263DF505CF78BC8AEAE61557F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
