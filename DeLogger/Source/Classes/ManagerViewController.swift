@@ -12,10 +12,6 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
 
     var button = LogHeadView(frame: CGRect(origin: LogHeadView.originalPosition, size: LogHeadView.size))
     
-    var managerTabBarController = UITabBarController()
-    
-    var childControllers = [UIViewController]()
-
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
@@ -33,11 +29,18 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
         let selector = #selector(ManagerViewController.panDidFire(panner:))
         let panGesture = UIPanGestureRecognizer(target: self, action: selector)
         button.addGestureRecognizer(panGesture)
-        setupViewControllers()
     }
 
     func didTapButton() {
         Dotzu.sharedManager.displayedList = true
+        
+        let managerTabBarController = UITabBarController()
+        managerTabBarController.tabBar.barTintColor = UIColor.black
+        managerTabBarController.tabBar.tintColor = Color.mainGreen
+        managerTabBarController.viewControllers = getViewControllers()
+        
+    
+        
         self.present(managerTabBarController, animated: true, completion: nil)
     }
 
@@ -112,30 +115,36 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
     }
     
     /// ——————— 初始化VC ————————
-    func setupViewControllers() {
-        let logsStoryboard = UIStoryboard(name: "Logs", bundle: Bundle(for: ManagerViewController.self))
+    func getViewControllers() ->  [UIViewController] {
+        
+        var viewControllers = [UIViewController]()
+        
+        let logsStoryboard = UIStoryboard(name: "Logs", bundle: Bundle(for: ManagerListLogViewController.self))
         if let logsNaviController = logsStoryboard.instantiateInitialViewController() {
-            self.setupChildViewController(controller: logsNaviController, title: "logs", imageName: "tabbar-logs", selectImageName: "tabbar-logs")
+            self.setupChildViewController(controller: logsNaviController, title: "logs", imageName: "tabbar-logs@2x", selectImageName: "tabbar-logs@2x")
+            viewControllers.append(logsNaviController)
         }
         
-        let applicationStoryboard = UIStoryboard(name: "Application", bundle: Bundle(for: ManagerViewController.self))
+        let applicationStoryboard = UIStoryboard(name: "Application", bundle: Bundle(for: InformationsTableViewController.self))
         if let applicationNaviController = applicationStoryboard.instantiateInitialViewController() {
-            self.setupChildViewController(controller: applicationNaviController, title: "application", imageName: "tabbar-app", selectImageName: "tabbar-app")
+            self.setupChildViewController(controller: applicationNaviController, title: "application", imageName: "tabbar-app@2x", selectImageName: "tabbar-app@2x")
+            viewControllers.append(applicationNaviController)
+
         }
         
-        let settingsStoryboard = UIStoryboard(name: "Settings", bundle: Bundle(for: ManagerViewController.self))
+        let settingsStoryboard = UIStoryboard(name: "Settings", bundle: Bundle(for: SettingsTableViewController.self))
         if let settingsNaviController = settingsStoryboard.instantiateInitialViewController() {
-            self.setupChildViewController(controller: settingsNaviController, title: "settings", imageName: "tabbar-settings", selectImageName: "tabbar-settings")
+            self.setupChildViewController(controller: settingsNaviController, title: "settings", imageName: "tabbar-settings@2x", selectImageName: "tabbar-settings@2x")
+            viewControllers.append(settingsNaviController)
+
         }
         
-        managerTabBarController.viewControllers  = self.childControllers
+        return viewControllers
     }
     
     //设置TabbarItem 以及NavigationController
     func setupChildViewController(controller: UIViewController, title: String, imageName: String, selectImageName: String) {
-        let item = UITabBarItem(title: title, image: UIImage(named: imageName)?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: selectImageName)?.withRenderingMode(.alwaysOriginal))
-        controller.tabBarItem = item
-        
-        self.childControllers.append(controller)
+//        let item = UITabBarItem(title: title, image: UIImage(named: imageName)?.withRenderingMode(.automatic), selectedImage: UIImage(named: selectImageName)?.withRenderingMode(.automatic))
+//        controller.tabBarItem = item
     }
 }

@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = "Sources", "Source/Classes/*.swift"
+  s.source_files = "Source/Classes/*.swift"
 
-  s.resources = ["Source/Classes/*.storyboard", "Source/Classes/*.nib", "Source/Assets/**/*"]
+  s.resources = ["Source/Classes/*.xib", "Source/Classes/*.storyboard", "Source/Assets/*.png"]
 
   s.ios.frameworks = 'UIKit', 'Foundation'
 
@@ -37,6 +37,5 @@ s.requires_arc = true
 
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -18,14 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "Sources",
-    "Source/Classes/*.swift"
-  ],
+  "source_files": "Source/Classes/*.swift",
   "resources": [
+    "Source/Classes/*.xib",
     "Source/Classes/*.storyboard",
-    "Source/Classes/*.nib",
-    "Source/Assets/**/*"
+    "Source/Assets/*.png"
   ],
   "ios": {
     "frameworks": [

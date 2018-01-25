@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13178.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3CJ-ep-uee">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3CJ-ep-uee">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13156.2"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -14,7 +14,7 @@
         <!--Detail Request View Controller-->
         <scene sceneID="9do-oX-KZy">
             <objects>
-                <viewController id="RSS-uq-3Pb" customClass="DetailRequestViewController" customModule="Dotzu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RSS-uq-3Pb" customClass="DetailRequestViewController" customModule="DeLogger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1FG-Xc-gaP"/>
                         <viewControllerLayoutGuide type="bottom" id="E80-LL-KES"/>
@@ -24,7 +24,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="agn-ad-IWN">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" red="0.30192413930000001" green="0.30198186640000002" blue="0.30192047360000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableView>
@@ -49,7 +49,7 @@
         <!--Detail Response Body View Controller-->
         <scene sceneID="xtW-n0-pyf">
             <objects>
-                <viewController id="lIe-dI-JCc" customClass="DetailResponseBodyViewController" customModule="Dotzu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lIe-dI-JCc" customClass="DetailResponseBodyViewController" customModule="DeLogger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jKg-0W-lxF"/>
                         <viewControllerLayoutGuide type="bottom" id="08e-tq-W4z"/>
@@ -111,7 +111,7 @@
         <!--Manager List Log View Controller-->
         <scene sceneID="bnh-hC-BsT">
             <objects>
-                <viewController id="fto-va-uFc" customClass="ManagerListLogViewController" customModule="Dotzu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fto-va-uFc" customClass="ManagerListLogViewController" customModule="DeLogger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pN7-y3-xCz"/>
                         <viewControllerLayoutGuide type="bottom" id="R96-YX-hcO"/>
@@ -121,7 +121,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ecr-Nv-94t">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="separatorColor" red="0.199973762" green="0.2000150383" blue="0.19997116919999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableView>
@@ -135,7 +135,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zMK-tr-ShO">
-                                <rect key="frame" x="309" y="533" width="50" height="50"/>
+                                <rect key="frame" x="309" y="484" width="50" height="50"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="JTp-4e-c51"/>
@@ -202,7 +202,7 @@
         <!--Container Filter View Controller-->
         <scene sceneID="0og-qw-MfJ">
             <objects>
-                <viewController id="4xb-fk-IJe" customClass="ContainerFilterViewController" customModule="Dotzu" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4xb-fk-IJe" customClass="ContainerFilterViewController" customModule="DeLogger" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NQT-Vv-JZ0"/>
                         <viewControllerLayoutGuide type="bottom" id="5R9-oT-HLb"/>
@@ -272,7 +272,7 @@
         <!--Filter Log Table View Controller-->
         <scene sceneID="FL4-7Z-PNw">
             <objects>
-                <tableViewController storyboardIdentifier="FilterLogTableViewController" id="eet-SK-4za" customClass="FilterLogTableViewController" customModule="Dotzu" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="FilterLogTableViewController" id="eet-SK-4za" customClass="FilterLogTableViewController" customModule="DeLogger" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="o3b-wp-fiZ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -310,7 +310,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="USG-gf-4S9">
-                                                    <rect key="frame" x="30" y="11" width="38" height="21"/>
+                                                    <rect key="frame" x="38" y="14" width="38" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="38" id="y4F-DB-GaP"/>
                                                     </constraints>
@@ -362,7 +362,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Warning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z6H-p7-Fn6">
-                                                    <rect key="frame" x="30" y="11" width="71" height="21"/>
+                                                    <rect key="frame" x="38" y="14" width="71" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="71" id="hIk-40-uEJ"/>
                                                     </constraints>
@@ -414,7 +414,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ak-QZ-Hkf">
-                                                    <rect key="frame" x="30" y="11" width="38" height="21"/>
+                                                    <rect key="frame" x="38" y="14" width="38" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="38" id="i6R-Ah-lUW"/>
                                                     </constraints>
@@ -466,7 +466,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verbose" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIO-K4-qKy">
-                                                    <rect key="frame" x="30" y="11" width="74" height="21"/>
+                                                    <rect key="frame" x="38" y="14" width="74" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="74" id="7zE-NH-J6X"/>
                                                     </constraints>
@@ -515,9 +515,10 @@
         <!--logs-->
         <scene sceneID="afz-qj-lGc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3CJ-ep-uee" customClass="LogNavigationViewController" customModule="Dotzu" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="logs" image="tabbar-logs" selectedImage="tabbar-logs" id="Uuf-aW-P9g"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3CJ-ep-uee" customClass="LogNavigationViewController" customModule="DeLogger" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="logs" image="tabbar-logs.png" springLoaded="YES" id="ZeQ-9X-wbu"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="EEW-tV-ACR">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -538,7 +539,7 @@
         <!--Filter Network Table View Controller-->
         <scene sceneID="BLN-Lb-eKz">
             <objects>
-                <tableViewController storyboardIdentifier="FilterNetworkTableViewController" id="JF2-XG-khb" customClass="FilterNetworkTableViewController" customModule="Dotzu" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="FilterNetworkTableViewController" id="JF2-XG-khb" customClass="FilterNetworkTableViewController" customModule="DeLogger" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="8Gf-c8-vge">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -576,7 +577,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Li-1k-zA4">
-                                                    <rect key="frame" x="30" y="11" width="38" height="21"/>
+                                                    <rect key="frame" x="38" y="14" width="38" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="38" id="PC6-K0-mpi"/>
                                                     </constraints>
@@ -628,7 +629,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="300" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmt-dq-wQP">
-                                                    <rect key="frame" x="30" y="11" width="71" height="21"/>
+                                                    <rect key="frame" x="38" y="14" width="71" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="71" id="A4B-Ic-wVO"/>
                                                     </constraints>
@@ -680,7 +681,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="400" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVp-iu-hvA">
-                                                    <rect key="frame" x="30" y="11" width="38" height="21"/>
+                                                    <rect key="frame" x="38" y="14" width="38" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="38" id="SyO-Yu-zet"/>
                                                     </constraints>
@@ -732,7 +733,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K54-zn-HAK">
-                                                    <rect key="frame" x="30" y="11" width="74" height="21"/>
+                                                    <rect key="frame" x="38" y="14" width="74" height="16"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="74" id="ifq-9H-wTN"/>
                                                     </constraints>
@@ -782,6 +783,6 @@
     <resources>
         <image name="filter" width="30" height="30"/>
         <image name="scroll-down" width="50" height="50"/>
-        <image name="tabbar-logs" width="30" height="30"/>
+        <image name="tabbar-logs.png" width="30" height="30"/>
     </resources>
 </document>
