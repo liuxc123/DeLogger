@@ -19,23 +19,10 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuxc123' => 'lxc_work@126.com' }
   s.source           = { :git => 'https://github.com/liuxc123/DeLogger.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
   s.ios.deployment_target = '8.0'
-
   s.source_files = "Source/Classes/*.swift"
-
   s.resources = ["Source/Classes/*.xib", "Source/Classes/*.storyboard", "Source/Assets/*.png"]
-
   s.ios.frameworks = 'UIKit', 'Foundation'
+  s.requires_arc = true
 
-  # s.resource_bundles = {
-  #   'DeLogger' => ['DeLogger/Assets/*.png']
-  # }
-
-s.requires_arc = true
-
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
