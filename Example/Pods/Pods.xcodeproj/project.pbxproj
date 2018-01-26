@@ -7,91 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		038A3F48A6DCEC55D07C07DA6CE05EFE /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CF08F77D5B57986001DD9EF28520B /* LogLevel.swift */; };
-		05C762E821A37E650DE44AD00AD9B890 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB67640C9A045FBDCA36A5ADBA8B08 /* DeviceModel.swift */; };
+		038A3F48A6DCEC55D07C07DA6CE05EFE /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45663B78880EEA1807E240FF3B8DCCEC /* LogLevel.swift */; };
+		05C762E821A37E650DE44AD00AD9B890 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7A9B47DCCEC2A0E367C70480D81698 /* DeviceModel.swift */; };
 		06F6228250BE8B6FBD7963DD9B8A563E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		08C515FD0949EDA4BEBB578DD8DE258E /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780B5E81640EF1FE538831260214F2C6 /* StoreManager.swift */; };
-		0E6B26E499DEC7B5046D5629FA914ACD /* tabbar-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C51020C5109C49E08FFA9B3F68E322 /* tabbar-settings@2x.png */; };
-		10673EFDE118EEFD27D30F6DAB8EB1D9 /* filter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB6A478D32B417C4EDD18F74E526EE7 /* filter@2x.png */; };
-		108C947C6754B2013BC1C698B109740F /* DetailRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF9131A13D372391A285DB6432441A7 /* DetailRequestViewController.swift */; };
-		12BB09C0609A8E3EB70F9E088B6193E4 /* RequestLatencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877E8C48EBA770F4BDDE587236754BF /* RequestLatencyTableViewCell.swift */; };
-		16F27FD3C53FA5FC06281706641F9E14 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B19C97A33409D5266CD7AA9393EA41D /* NotificationCenter.swift */; };
-		1A0BF4C7338985AF2A8A3CB98A627F4E /* LoggerCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFFA6B92146E53D7B3DE0A0C42B57BD /* LoggerCrash.swift */; };
-		1DC0581FDC04E4081988EE822475B9A8 /* LogTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C6670C77CBAC24D3948088AA4CBD2 /* LogTabBarViewController.swift */; };
-		22CE08CF1791D240BD6953386DA00A6A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FF876AB180C25B8EA28CEEC24938B2 /* Logger.swift */; };
-		25E990D203EEFC03D2B8E5B763981F7F /* LogHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B9BC7652CE8B38A3ED1C304CB648D1 /* LogHeadView.swift */; };
-		2A405B9393CDF7673DCD04C14EE92A7E /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9916A83960377394BACD023FB320720 /* Device.swift */; };
-		2A69ED07AC9637C50D0A7D4286E59CDD /* LogNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DDF8B2DA2F0DF3A80DBBF2787D1B41 /* LogNotification.swift */; };
-		2A96AB0C7836636C5BCE1073F970858B /* RequestLatencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0A9AC1995FA438A95DCBAD3B4395D73 /* RequestLatencyTableViewCell.xib */; };
+		08C515FD0949EDA4BEBB578DD8DE258E /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FF74C310E862CF6FC7A1ED4B54E008 /* StoreManager.swift */; };
+		0E6B26E499DEC7B5046D5629FA914ACD /* tabbar-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F4FBB71459B42A607CA61A1A9BC836 /* tabbar-settings@2x.png */; };
+		10673EFDE118EEFD27D30F6DAB8EB1D9 /* filter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 690CE3BD5C7426606BB8A6BDB30BFD36 /* filter@2x.png */; };
+		108C947C6754B2013BC1C698B109740F /* DetailRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E256543AF9BEFFD752CA4AB8A20D73 /* DetailRequestViewController.swift */; };
+		12BB09C0609A8E3EB70F9E088B6193E4 /* RequestLatencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147F81870B055C302466010792A5B430 /* RequestLatencyTableViewCell.swift */; };
+		16F27FD3C53FA5FC06281706641F9E14 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E48FBDC9F447A945133F1B0648B91A /* NotificationCenter.swift */; };
+		1A0BF4C7338985AF2A8A3CB98A627F4E /* LoggerCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E2BDA5827F358C11BA41BB0299B84C /* LoggerCrash.swift */; };
+		1DC0581FDC04E4081988EE822475B9A8 /* LogTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E97CEAF5B7EAEF12BAA521B507B222A /* LogTabBarViewController.swift */; };
+		22CE08CF1791D240BD6953386DA00A6A /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF79BC991DF422EBA2EFCF350FA5903 /* Logger.swift */; };
+		25E990D203EEFC03D2B8E5B763981F7F /* LogHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7EC5F7BB863E22E0EFAC9B7382CFC7 /* LogHeadView.swift */; };
+		2A405B9393CDF7673DCD04C14EE92A7E /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881F5BC9EB4FFDF3D195D5C207EBFB95 /* Device.swift */; };
+		2A69ED07AC9637C50D0A7D4286E59CDD /* LogNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CD18CCFD0DF4843C6A1DAE6215A548 /* LogNotification.swift */; };
+		2A96AB0C7836636C5BCE1073F970858B /* RequestLatencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79D3570CAD8F5B369F75F56F18CD0207 /* RequestLatencyTableViewCell.xib */; };
 		2EBC78A098D44A926F989C02C0DB141D /* Pods-DeLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6870658063D64CA1C49A69137FA1D34E /* Pods-DeLogger_Tests-dummy.m */; };
-		3231D1345769368A637038E61030FED9 /* LogNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2F445467338AE9944824EDC52A970D /* LogNavigationViewController.swift */; };
-		323CC058F61681E7428CC638C6F1ABAF /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C928290EF38247CCF84B0E1798F2F8 /* SettingsTableViewController.swift */; };
-		35E9473E7E028CAE5E1D2024B608B6E4 /* DeLoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668C599829F6D26BF47FE9035CE3551D /* DeLoggerManager.swift */; };
-		364A80626BD81939D0629C8E25EC4AFE /* FilterLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6632B746736D18AF07D195D268F67EB /* FilterLogTableViewController.swift */; };
-		39AF1549A0909ED24BC234FE758C7E0C /* DeLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 916C9BB821BD36C25AB4693B1C888524 /* DeLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47F320FF76D7BEC73FE71F76F53EB300 /* LogRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9411B22591B596CDCBC0660304F3760 /* LogRequest.swift */; };
-		48746A9F82A55BE074404200700E1496 /* RequestDataHttpBodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E8B19F1B15993EED9E755895B62AC /* RequestDataHttpBodyTableViewCell.swift */; };
-		49531511BBDCC5FB2349D3C62428E596 /* CrashListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5593BDA1154FAA99AFC1B5FDD04C4A0B /* CrashListTableViewCell.xib */; };
-		4A61C23831821A0EB682E7615934E4C2 /* RequestHeadersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6745C16D75A3DD98CB5162724A82484 /* RequestHeadersTableViewCell.xib */; };
-		4F4D334E189CF4801CB64131E25BB017 /* LogBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C022D2486E916611058F70455A06C2 /* LogBadgeView.swift */; };
-		5082BBD30753A5862D781605A876B0F1 /* scroll-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BDF748A5DE468EA6340E4159F74AD918 /* scroll-down@2x.png */; };
-		51BD11027E2D9D3B89768BA91E941439 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B4DD78D3B0367CFDF3F0A59E3687FF /* UserDefaults+.swift */; };
-		51F37EDA86422A4BF8C29887EE1DC5EA /* ListCrashesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C108516345BC9EC918B27FDE3F1901C /* ListCrashesViewController.swift */; };
-		5261340B363A0BFB93E67547F513BA41 /* LogCodeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32897E01C16A4F55D0D2FA6824F23317 /* LogCodeFilter.swift */; };
-		565D9F3EE697AFE3428D8C8D5B950E65 /* LogCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC8F8FC339727F7D6D510678A92BE8 /* LogCode.swift */; };
-		5A99E404F166D1A076C82A4477C818D1 /* RequestErrorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2ACC753AA5E3149053C3015F4EB56DE /* RequestErrorTableViewCell.xib */; };
-		5E1D765670625C608E95547BA2FE092F /* LoggerNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3805397A70DA70D8AD146998EAF33BEB /* LoggerNetwork.swift */; };
-		60A8633C96B0351639279A2C839AA73A /* LogGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC44C91014CF61340E7EF5655BD0B4DA /* LogGenerator.swift */; };
-		65C6D7047A8CCC08E80BCA62710E092C /* LogViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAFB73EC8583D48E6FDA3A4D973FF87 /* LogViewNotification.swift */; };
-		6A0BA16EB082FEB501FD00232E85BF57 /* ContainerFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D4C032B65AE24C765E05F8C0ED1AB6 /* ContainerFilterViewController.swift */; };
+		3231D1345769368A637038E61030FED9 /* LogNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A087DD89129FD6DC41E87B9FA00466C1 /* LogNavigationViewController.swift */; };
+		323CC058F61681E7428CC638C6F1ABAF /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE358C0ACA44CE71F3FB7D33A8308237 /* SettingsTableViewController.swift */; };
+		35E9473E7E028CAE5E1D2024B608B6E4 /* DeLoggerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A64E41C087F96D1FCC750333456F6 /* DeLoggerManager.swift */; };
+		364A80626BD81939D0629C8E25EC4AFE /* FilterLogTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C5876146D822FB7C6E4D6D684DE6B20 /* FilterLogTableViewController.swift */; };
+		39AF1549A0909ED24BC234FE758C7E0C /* DeLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 197A07AD382D183E7B9BC23FE69A7150 /* DeLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47F320FF76D7BEC73FE71F76F53EB300 /* LogRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85DBB96B33E1A1E88E2DD4CDAB180E /* LogRequest.swift */; };
+		48746A9F82A55BE074404200700E1496 /* RequestDataHttpBodyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D101405A44606F2EB38F9387D442E8 /* RequestDataHttpBodyTableViewCell.swift */; };
+		49531511BBDCC5FB2349D3C62428E596 /* CrashListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4368D3DFFCB9383F9DFED7C9D9F893C4 /* CrashListTableViewCell.xib */; };
+		4A61C23831821A0EB682E7615934E4C2 /* RequestHeadersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E26C83C4A2ED8CC55D5B9B91BDBA0F /* RequestHeadersTableViewCell.xib */; };
+		4F4D334E189CF4801CB64131E25BB017 /* LogBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A3BC2829DC45DFDBA5FDAE78050C07 /* LogBadgeView.swift */; };
+		5082BBD30753A5862D781605A876B0F1 /* scroll-down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57086D9A7582A26915FABBDB5E4EDA86 /* scroll-down@2x.png */; };
+		51BD11027E2D9D3B89768BA91E941439 /* UserDefaults+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B05A003A8BDACD6505CAD6D369103 /* UserDefaults+.swift */; };
+		51F37EDA86422A4BF8C29887EE1DC5EA /* ListCrashesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F41C6A0D5C9AACC1C8F3A0439E9C9A4 /* ListCrashesViewController.swift */; };
+		5261340B363A0BFB93E67547F513BA41 /* LogCodeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E047C09CB45189EA187D9AC91611542 /* LogCodeFilter.swift */; };
+		565D9F3EE697AFE3428D8C8D5B950E65 /* LogCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C7EE9BBE579E2A3883DDF9339540E9 /* LogCode.swift */; };
+		5A99E404F166D1A076C82A4477C818D1 /* RequestErrorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DAD3097242066FDE56A9EB4F202A9 /* RequestErrorTableViewCell.xib */; };
+		5E1D765670625C608E95547BA2FE092F /* LoggerNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AF6E87B96570BAA144C158A572E8C7 /* LoggerNetwork.swift */; };
+		60A8633C96B0351639279A2C839AA73A /* LogGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536FD61A04E90E9454E8BADF0740506D /* LogGenerator.swift */; };
+		65C6D7047A8CCC08E80BCA62710E092C /* LogViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA349B24BC6CA8D092EDD340E436AC0 /* LogViewNotification.swift */; };
+		6A0BA16EB082FEB501FD00232E85BF57 /* ContainerFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D040B747E69AE4AEE7EBF749A159CAB /* ContainerFilterViewController.swift */; };
 		6E1F48C312233C3368D91DD4B297B81F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		768FC459875060096D9C3BC2DC504B5D /* FilterNetworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9408DE21CDA538805C12CDEAD149B448 /* FilterNetworkTableViewController.swift */; };
+		768FC459875060096D9C3BC2DC504B5D /* FilterNetworkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B694FE3ED8DC7F49EBFCAF7F3743FA /* FilterNetworkTableViewController.swift */; };
 		7F10A75932F71A2A9DA1ACE567CC8E64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		809F5CB905FA9B4C6014A7731ECDB74E /* CrashListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C488394E4B9A2C2F9E87DE29C744F1 /* CrashListTableViewCell.swift */; };
-		830359AB118E480091A50350D11B1DE2 /* ManagerListLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A2E19A26A85AFA298C9D0805B5F822 /* ManagerListLogViewController.swift */; };
-		881B90DA542AD2577B14C17C4B6A88BC /* tabbar-app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4FA9853B9D8C8CD2EB3271ECDD0B7F /* tabbar-app@2x.png */; };
-		88312305C3A3E94060EA801FDA73B59E /* LogCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5BE87D3409B3879C048C78665D0DEC /* LogCellProtocol.swift */; };
-		8C6910729798455D0313DF91CF2C8794 /* LogLevelFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458B18F890E231260453CABEE9F6C616 /* LogLevelFilter.swift */; };
-		90224716314A51FD71B3E87D3B4FE54D /* tabbar-logs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DACA947031CFC4C79A4CD50D23555FB /* tabbar-logs@2x.png */; };
-		9397A4CD555C494F342073791827CC33 /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8782A81873106AFB251EA5F69F0A6A24 /* LogTableViewCell.swift */; };
-		945506DAEC372A6E2C66574264C20D9B /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F33CCB62D9086D4212D85397C7552B /* UITableViewCell+.swift */; };
-		9751EB1BF2A5593ED5BDF4420E204520 /* LogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10FAC734D5A05D6FA5BC67EFB16A5777 /* LogTableViewCell.xib */; };
+		809F5CB905FA9B4C6014A7731ECDB74E /* CrashListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA628296829A48A126C04F138D36CFA0 /* CrashListTableViewCell.swift */; };
+		830359AB118E480091A50350D11B1DE2 /* ManagerListLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CB990483AA8BAF93716CC2A7BAE44 /* ManagerListLogViewController.swift */; };
+		881B90DA542AD2577B14C17C4B6A88BC /* tabbar-app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE3F52A6C14F9F47D399646EE0BBCAC2 /* tabbar-app@2x.png */; };
+		88312305C3A3E94060EA801FDA73B59E /* LogCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3540D99BD558077491D8221A2D8570C6 /* LogCellProtocol.swift */; };
+		8C6910729798455D0313DF91CF2C8794 /* LogLevelFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55811EF9CBF82DF229CABA2866C3EDE9 /* LogLevelFilter.swift */; };
+		90224716314A51FD71B3E87D3B4FE54D /* tabbar-logs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF55DD07F78EC9A4C8406D58F3682ADB /* tabbar-logs@2x.png */; };
+		9397A4CD555C494F342073791827CC33 /* LogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF680DD5BCFD0F05E3C73956A48BA22F /* LogTableViewCell.swift */; };
+		945506DAEC372A6E2C66574264C20D9B /* UITableViewCell+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB245A48DDA0577AFDE6AA3A39A13 /* UITableViewCell+.swift */; };
+		9751EB1BF2A5593ED5BDF4420E204520 /* LogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77183A866CA6C78400D9C2C386C9F95D /* LogTableViewCell.xib */; };
 		9E002A6E1C09E3AD25F8ADD0A5C97AC3 /* Pods-DeLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A741BFC64E00233FC7179117659EEDEE /* Pods-DeLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9EEE77C07F94F97C11709EAC155265F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		A1220AA2E96D0CD0CD15997FB723E509 /* LogNetworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F726D90086C7AF417FF44E2E0B9140 /* LogNetworkTableViewCell.swift */; };
-		A3DBD8687655AE1C9A1662DD9EC965A7 /* Logs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E87A435ABAF36F8E92D850E2AEE5771 /* Logs.storyboard */; };
-		A4E1E70E6EFD6493490B6D872C542D2A /* LogProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE1DF299430B5A7EEB334BDDCFA75BE /* LogProtocol.swift */; };
-		AA2A23B516757C86C6EBA572E44CCC0C /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095361CE9B9CBA7623E2BB575ADB75B /* UITableView+.swift */; };
-		AB70303FA65CC42A488D0B19C97635F9 /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531A4BA13BC66947FDBB01273F427FC9 /* ManagerViewController.swift */; };
+		A1220AA2E96D0CD0CD15997FB723E509 /* LogNetworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41DECAA76548BAE3D1AEE62BCD4433BC /* LogNetworkTableViewCell.swift */; };
+		A3DBD8687655AE1C9A1662DD9EC965A7 /* Logs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26D73676F3581C1EFD171B305D18EF8 /* Logs.storyboard */; };
+		A4E1E70E6EFD6493490B6D872C542D2A /* LogProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D84A348A89929324180BCF02A478B5 /* LogProtocol.swift */; };
+		AA2A23B516757C86C6EBA572E44CCC0C /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9256B9FEDDFAAA6FDF3049B13A068818 /* UITableView+.swift */; };
+		AB70303FA65CC42A488D0B19C97635F9 /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E93522CB8F4ED040DA7BBE4F0389BE /* ManagerViewController.swift */; };
 		B15A79F5A1A48D6448A9BCF120358307 /* Pods-DeLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CFB0362BC6320FE77A72E90C52E7115 /* Pods-DeLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B385BE75BF050A706A2CD778BE683529 /* ApplicationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD86CF6136BFD4FE20DA56928A996ABF /* ApplicationInformation.swift */; };
-		B8D87CC75F0C29397974AA0B6285C929 /* LogResponseBodyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813BCDD1E8F68CBE317A8DF2817E01FD /* LogResponseBodyViewModel.swift */; };
-		BD1460A23EB495BDB9C1FB848EA6B0E9 /* DetailResponseBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB790959DB340B21C9CF80ED26565F5 /* DetailResponseBodyViewController.swift */; };
-		BD7491C430EB20A47F34AA49C9959586 /* DeLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 461D00B9106B7DF00831952158AEECC5 /* DeLogger-dummy.m */; };
-		C78D8E4C5FA223115DE6D75F6777702B /* LogNetworkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F4C79609C55FE8CC1362D64AC0DC350 /* LogNetworkTableViewCell.xib */; };
-		CC9B3E999EA958DBD46A881FC0C8830D /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D56AC5754A5490776BCDF525E6681F42 /* logo@2x.png */; };
+		B385BE75BF050A706A2CD778BE683529 /* ApplicationInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A8CA55FC817C2F8B1369F530FAA3E4 /* ApplicationInformation.swift */; };
+		B8D87CC75F0C29397974AA0B6285C929 /* LogResponseBodyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CBE1BDDC61930A2AE69D95269F5917 /* LogResponseBodyViewModel.swift */; };
+		BD1460A23EB495BDB9C1FB848EA6B0E9 /* DetailResponseBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0B4834C2FCE5F6486A2528087F53EC /* DetailResponseBodyViewController.swift */; };
+		BD7491C430EB20A47F34AA49C9959586 /* DeLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ACE6A2175A48ED34070DB47DC41250 /* DeLogger-dummy.m */; };
+		C78D8E4C5FA223115DE6D75F6777702B /* LogNetworkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0DA66C2764ABE7B97D229855BE1F271 /* LogNetworkTableViewCell.xib */; };
+		CC9B3E999EA958DBD46A881FC0C8830D /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE2CFDE92DF08E00BFCEFC55C8D24F44 /* logo@2x.png */; };
 		CD4E5B79178139BB03DBED58CABC077A /* Pods-DeLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5E8037779F23629E2DE8BF0FDAF691C /* Pods-DeLogger_Example-dummy.m */; };
-		CE5342EB61B1F553897260AB906A82AF /* Manager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679DCDFDFEC8CDC186B2373CF1503246 /* Manager.storyboard */; };
-		D487527C98F1A2B5624F9402F85D246F /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 686977B4F9B83001067F15F9D2D05143 /* close@2x.png */; };
-		D48996C2826FD8EA2E0B1AD6908C2735 /* LoggerFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD61E2E6945BD9C12DABDB8DD25743 /* LoggerFormat.swift */; };
-		D4B113C3500B48737F67AD18135AF873 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5F4B148B18942C716B348217DF05B /* Log.swift */; };
-		D5D1CE46E33BFEBA6B4FBCB0C9F70067 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0CD29F8F543795F61BC1F47ED9322D /* Color.swift */; };
-		D7BA356C9FC38C6A13A9585E343F9904 /* FilterViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F039FA193BEF5591C243A2D8A62651 /* FilterViewControllerProtocol.swift */; };
-		D8F2B7B98DF1655CE1D28D1367428131 /* DetailCrashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685B1F4A8383CEC7B5586829F841DEDF /* DetailCrashTableViewController.swift */; };
-		D9F69443593753DB0B92718BBC28F29E /* RequestHeadersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B7E3633379BB0EC33A88D968189901 /* RequestHeadersTableViewCell.swift */; };
-		DAF002DAA209702E3FAF1C6F5927B69C /* LogCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F0F2716964EEC93DF8384996341734 /* LogCrash.swift */; };
-		DBBA571BAA6CC70534489FA034F5FCDD /* RequestErrorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2FBC4FC88DF93CE734730D35E0F5A1 /* RequestErrorTableViewCell.swift */; };
-		E0E9715F76400279AF0AFF8D2410766A /* RequestDataHttpBodyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92BC16D7B7C7F3A15A7E9BFACDA12C66 /* RequestDataHttpBodyTableViewCell.xib */; };
-		E1F01666BD2D5467CD1580C1307952D5 /* InformationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB34E9DE46609E677D13EF6849D3558C /* InformationsTableViewController.swift */; };
-		E82D06CCB2C3726F1599AA41132DB90B /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0D966953C4C8841256F2283823C1B1 /* Settings.storyboard */; };
-		E8FDF70C282929F2D9B6F992513A8C5B /* Application.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1417A7904EB87FDDC1CE086B24BCFCDA /* Application.storyboard */; };
-		E9EB1033473968151C4B75821CD2CEC6 /* ResponseDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75A3486E33AC7C790B34260314C81B8 /* ResponseDataTableViewCell.swift */; };
-		EA7D045D867882BAB646F14CAEBE4720 /* ResponseDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 438FF8EEAB33CDCD2D565A5908D06A3F /* ResponseDataTableViewCell.xib */; };
-		EEFD85C183B76B5B12BFBD641E24B36F /* ListLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0ADDC04558091A72BD8DB69C196607 /* ListLogViewModel.swift */; };
-		F3F33BD474EA4B3953E994A22459C0EE /* bugs-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3C76633EEAAE3C3CFC93FDE904F9D9 /* bugs-icon@2x.png */; };
-		F48300A55562497561A9C950B46C997A /* LogsSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1F023C49CC8DACC9991E8739A38BCF /* LogsSettings.swift */; };
-		FC39393BBC1BEB512C2AE7E9CF87FD96 /* ManagerListLogState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1299BC935B6A4EDBA0BDC48B84890751 /* ManagerListLogState.swift */; };
-		FEBE33921A5DF41DCC81A395CC162864 /* ManagerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC44A2C4D9EE570E82A2E0BFDD828AA /* ManagerWindow.swift */; };
+		CE5342EB61B1F553897260AB906A82AF /* Manager.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F2762A04B546031B58C6ECCC04F284 /* Manager.storyboard */; };
+		D487527C98F1A2B5624F9402F85D246F /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE760F419371C079C9458D0085E49572 /* close@2x.png */; };
+		D48996C2826FD8EA2E0B1AD6908C2735 /* LoggerFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75349B651813380ACD51D25EFFA9CD63 /* LoggerFormat.swift */; };
+		D4B113C3500B48737F67AD18135AF873 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A84B09F686EDA49BC0D958726A94F0 /* Log.swift */; };
+		D5D1CE46E33BFEBA6B4FBCB0C9F70067 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15B36B20B477E18C0DCBE19AA322932 /* Color.swift */; };
+		D7BA356C9FC38C6A13A9585E343F9904 /* FilterViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635D479258651821272CDD9CF337C5E4 /* FilterViewControllerProtocol.swift */; };
+		D8F2B7B98DF1655CE1D28D1367428131 /* DetailCrashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E87F6F90770ABF03E2452ADA3931A /* DetailCrashTableViewController.swift */; };
+		D9F69443593753DB0B92718BBC28F29E /* RequestHeadersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1482A21EB71C1C96821E25E6D9CB5820 /* RequestHeadersTableViewCell.swift */; };
+		DAF002DAA209702E3FAF1C6F5927B69C /* LogCrash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7704BBEFB1FBA05C5555841293F9F0 /* LogCrash.swift */; };
+		DBBA571BAA6CC70534489FA034F5FCDD /* RequestErrorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E1C6EB0745EE6F213131B3A69AA2E0 /* RequestErrorTableViewCell.swift */; };
+		E0E9715F76400279AF0AFF8D2410766A /* RequestDataHttpBodyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35F5DD8D7E78F8BC8CCC80F4DDDEBDB8 /* RequestDataHttpBodyTableViewCell.xib */; };
+		E1F01666BD2D5467CD1580C1307952D5 /* InformationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A3A7073FF3B1E832E6270CB8D06E18 /* InformationsTableViewController.swift */; };
+		E82D06CCB2C3726F1599AA41132DB90B /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29979391F3C0651CB811529F26F6BF50 /* Settings.storyboard */; };
+		E8FDF70C282929F2D9B6F992513A8C5B /* Application.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4838863DA94ABD3908073806A21E2C7F /* Application.storyboard */; };
+		E9EB1033473968151C4B75821CD2CEC6 /* ResponseDataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8D0FA6D598469E61C6A949630B677 /* ResponseDataTableViewCell.swift */; };
+		EA7D045D867882BAB646F14CAEBE4720 /* ResponseDataTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0AED7CE4643A3E8A607B826A8B88BB9 /* ResponseDataTableViewCell.xib */; };
+		EEFD85C183B76B5B12BFBD641E24B36F /* ListLogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE5F1B2E01B256B981AFB42BC6A760 /* ListLogViewModel.swift */; };
+		F3F33BD474EA4B3953E994A22459C0EE /* bugs-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95F5D010DE8D6B82BAAD07268DEADABD /* bugs-icon@2x.png */; };
+		F48300A55562497561A9C950B46C997A /* LogsSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6B515D58473AD57DD8798713DD95DE /* LogsSettings.swift */; };
+		FC39393BBC1BEB512C2AE7E9CF87FD96 /* ManagerListLogState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4D2CC60B8A0F66404F3B9DA65FA83 /* ManagerListLogState.swift */; };
+		FEBE33921A5DF41DCC81A395CC162864 /* ManagerWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2622755D377D3350DCAE850D26A0895 /* ManagerWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,116 +105,113 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014BB5AE48236C5CDAE4D215BCF6C52D /* Pods-DeLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DeLogger_Example.modulemap"; sourceTree = "<group>"; };
+		014BB5AE48236C5CDAE4D215BCF6C52D /* Pods-DeLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeLogger_Example.modulemap"; sourceTree = "<group>"; };
 		030A1728627886676D05F97E4882879C /* Pods-DeLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		07E5446EF93F1AC3B3692045D0F54E18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B4FA9853B9D8C8CD2EB3271ECDD0B7F /* tabbar-app@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar-app@2x.png"; sourceTree = "<group>"; };
-		0D1C6670C77CBAC24D3948088AA4CBD2 /* LogTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTabBarViewController.swift; path = Source/Classes/LogTabBarViewController.swift; sourceTree = "<group>"; };
-		0F4C79609C55FE8CC1362D64AC0DC350 /* LogNetworkTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LogNetworkTableViewCell.xib; sourceTree = "<group>"; };
-		10A2E19A26A85AFA298C9D0805B5F822 /* ManagerListLogViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerListLogViewController.swift; path = Source/Classes/ManagerListLogViewController.swift; sourceTree = "<group>"; };
-		10FAC734D5A05D6FA5BC67EFB16A5777 /* LogTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LogTableViewCell.xib; sourceTree = "<group>"; };
-		1299BC935B6A4EDBA0BDC48B84890751 /* ManagerListLogState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerListLogState.swift; path = Source/Classes/ManagerListLogState.swift; sourceTree = "<group>"; };
-		1417A7904EB87FDDC1CE086B24BCFCDA /* Application.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Application.storyboard; sourceTree = "<group>"; };
+		05E256543AF9BEFFD752CA4AB8A20D73 /* DetailRequestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailRequestViewController.swift; path = Source/Classes/DetailRequestViewController.swift; sourceTree = "<group>"; };
+		05F4FBB71459B42A607CA61A1A9BC836 /* tabbar-settings@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar-settings@2x.png"; sourceTree = "<group>"; };
+		08D101405A44606F2EB38F9387D442E8 /* RequestDataHttpBodyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestDataHttpBodyTableViewCell.swift; path = Source/Classes/RequestDataHttpBodyTableViewCell.swift; sourceTree = "<group>"; };
+		0B7704BBEFB1FBA05C5555841293F9F0 /* LogCrash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCrash.swift; path = Source/Classes/LogCrash.swift; sourceTree = "<group>"; };
+		0E97CEAF5B7EAEF12BAA521B507B222A /* LogTabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTabBarViewController.swift; path = Source/Classes/LogTabBarViewController.swift; sourceTree = "<group>"; };
+		10A3A7073FF3B1E832E6270CB8D06E18 /* InformationsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InformationsTableViewController.swift; path = Source/Classes/InformationsTableViewController.swift; sourceTree = "<group>"; };
+		11CD18CCFD0DF4843C6A1DAE6215A548 /* LogNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNotification.swift; path = Source/Classes/LogNotification.swift; sourceTree = "<group>"; };
+		11E26C83C4A2ED8CC55D5B9B91BDBA0F /* RequestHeadersTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RequestHeadersTableViewCell.xib; sourceTree = "<group>"; };
+		141EB245A48DDA0577AFDE6AA3A39A13 /* UITableViewCell+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+.swift"; path = "Source/Classes/UITableViewCell+.swift"; sourceTree = "<group>"; };
+		147F81870B055C302466010792A5B430 /* RequestLatencyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestLatencyTableViewCell.swift; path = Source/Classes/RequestLatencyTableViewCell.swift; sourceTree = "<group>"; };
+		1482A21EB71C1C96821E25E6D9CB5820 /* RequestHeadersTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestHeadersTableViewCell.swift; path = Source/Classes/RequestHeadersTableViewCell.swift; sourceTree = "<group>"; };
 		16162C8000B67A3E634A3D9F3610B1F6 /* Pods-DeLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1C108516345BC9EC918B27FDE3F1901C /* ListCrashesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCrashesViewController.swift; path = Source/Classes/ListCrashesViewController.swift; sourceTree = "<group>"; };
+		197A07AD382D183E7B9BC23FE69A7150 /* DeLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeLogger-umbrella.h"; sourceTree = "<group>"; };
 		1CFB0362BC6320FE77A72E90C52E7115 /* Pods-DeLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1E5BE87D3409B3879C048C78665D0DEC /* LogCellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCellProtocol.swift; path = Source/Classes/LogCellProtocol.swift; sourceTree = "<group>"; };
-		1FEFE2648236DCCF01A0E3C838CE34C2 /* DeLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeLogger-prefix.pch"; sourceTree = "<group>"; };
-		2FE1DF299430B5A7EEB334BDDCFA75BE /* LogProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogProtocol.swift; path = Source/Classes/LogProtocol.swift; sourceTree = "<group>"; };
-		32897E01C16A4F55D0D2FA6824F23317 /* LogCodeFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCodeFilter.swift; path = Source/Classes/LogCodeFilter.swift; sourceTree = "<group>"; };
-		32D4C032B65AE24C765E05F8C0ED1AB6 /* ContainerFilterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerFilterViewController.swift; path = Source/Classes/ContainerFilterViewController.swift; sourceTree = "<group>"; };
-		33EDBA06604879D6661D8D1EBD7DA1BC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		34AFA7E74F1A528E91D249B541F346A6 /* Pods-DeLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DeLogger_Tests.modulemap"; sourceTree = "<group>"; };
-		35C928290EF38247CCF84B0E1798F2F8 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = Source/Classes/SettingsTableViewController.swift; sourceTree = "<group>"; };
-		3805397A70DA70D8AD146998EAF33BEB /* LoggerNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerNetwork.swift; path = Source/Classes/LoggerNetwork.swift; sourceTree = "<group>"; };
-		39B4DD78D3B0367CFDF3F0A59E3687FF /* UserDefaults+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+.swift"; path = "Source/Classes/UserDefaults+.swift"; sourceTree = "<group>"; };
-		3AC44A2C4D9EE570E82A2E0BFDD828AA /* ManagerWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerWindow.swift; path = Source/Classes/ManagerWindow.swift; sourceTree = "<group>"; };
-		3BF9131A13D372391A285DB6432441A7 /* DetailRequestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailRequestViewController.swift; path = Source/Classes/DetailRequestViewController.swift; sourceTree = "<group>"; };
-		3C0D966953C4C8841256F2283823C1B1 /* Settings.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
-		3F4CF08F77D5B57986001DD9EF28520B /* LogLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = Source/Classes/LogLevel.swift; sourceTree = "<group>"; };
-		438FF8EEAB33CDCD2D565A5908D06A3F /* ResponseDataTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ResponseDataTableViewCell.xib; sourceTree = "<group>"; };
-		458B18F890E231260453CABEE9F6C616 /* LogLevelFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevelFilter.swift; path = Source/Classes/LogLevelFilter.swift; sourceTree = "<group>"; };
-		461D00B9106B7DF00831952158AEECC5 /* DeLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeLogger-dummy.m"; sourceTree = "<group>"; };
-		46FF876AB180C25B8EA28CEEC24938B2 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Classes/Logger.swift; sourceTree = "<group>"; };
-		4AEB67640C9A045FBDCA36A5ADBA8B08 /* DeviceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceModel.swift; path = Source/Classes/DeviceModel.swift; sourceTree = "<group>"; };
-		4DACA947031CFC4C79A4CD50D23555FB /* tabbar-logs@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar-logs@2x.png"; sourceTree = "<group>"; };
-		4E87A435ABAF36F8E92D850E2AEE5771 /* Logs.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Logs.storyboard; sourceTree = "<group>"; };
-		50C51020C5109C49E08FFA9B3F68E322 /* tabbar-settings@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar-settings@2x.png"; sourceTree = "<group>"; };
-		51F039FA193BEF5591C243A2D8A62651 /* FilterViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterViewControllerProtocol.swift; path = Source/Classes/FilterViewControllerProtocol.swift; sourceTree = "<group>"; };
-		531A4BA13BC66947FDBB01273F427FC9 /* ManagerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerViewController.swift; path = Source/Classes/ManagerViewController.swift; sourceTree = "<group>"; };
-		5593BDA1154FAA99AFC1B5FDD04C4A0B /* CrashListTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CrashListTableViewCell.xib; sourceTree = "<group>"; };
-		5AB6A478D32B417C4EDD18F74E526EE7 /* filter@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "filter@2x.png"; sourceTree = "<group>"; };
-		5B2FBC4FC88DF93CE734730D35E0F5A1 /* RequestErrorTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestErrorTableViewCell.swift; path = Source/Classes/RequestErrorTableViewCell.swift; sourceTree = "<group>"; };
+		20D84A348A89929324180BCF02A478B5 /* LogProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogProtocol.swift; path = Source/Classes/LogProtocol.swift; sourceTree = "<group>"; };
+		27E48FBDC9F447A945133F1B0648B91A /* NotificationCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenter.swift; path = Source/Classes/NotificationCenter.swift; sourceTree = "<group>"; };
+		29979391F3C0651CB811529F26F6BF50 /* Settings.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		2CB8D0FA6D598469E61C6A949630B677 /* ResponseDataTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseDataTableViewCell.swift; path = Source/Classes/ResponseDataTableViewCell.swift; sourceTree = "<group>"; };
+		2F41C6A0D5C9AACC1C8F3A0439E9C9A4 /* ListCrashesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCrashesViewController.swift; path = Source/Classes/ListCrashesViewController.swift; sourceTree = "<group>"; };
+		30E1C6EB0745EE6F213131B3A69AA2E0 /* RequestErrorTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestErrorTableViewCell.swift; path = Source/Classes/RequestErrorTableViewCell.swift; sourceTree = "<group>"; };
+		31E2BDA5827F358C11BA41BB0299B84C /* LoggerCrash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerCrash.swift; path = Source/Classes/LoggerCrash.swift; sourceTree = "<group>"; };
+		34AFA7E74F1A528E91D249B541F346A6 /* Pods-DeLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		3540D99BD558077491D8221A2D8570C6 /* LogCellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCellProtocol.swift; path = Source/Classes/LogCellProtocol.swift; sourceTree = "<group>"; };
+		35E93522CB8F4ED040DA7BBE4F0389BE /* ManagerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerViewController.swift; path = Source/Classes/ManagerViewController.swift; sourceTree = "<group>"; };
+		35F2762A04B546031B58C6ECCC04F284 /* Manager.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
+		35F5DD8D7E78F8BC8CCC80F4DDDEBDB8 /* RequestDataHttpBodyTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RequestDataHttpBodyTableViewCell.xib; sourceTree = "<group>"; };
+		3A2DAD3097242066FDE56A9EB4F202A9 /* RequestErrorTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RequestErrorTableViewCell.xib; sourceTree = "<group>"; };
+		3AAE5F1B2E01B256B981AFB42BC6A760 /* ListLogViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListLogViewModel.swift; path = Source/Classes/ListLogViewModel.swift; sourceTree = "<group>"; };
+		3E047C09CB45189EA187D9AC91611542 /* LogCodeFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCodeFilter.swift; path = Source/Classes/LogCodeFilter.swift; sourceTree = "<group>"; };
+		41C7EE9BBE579E2A3883DDF9339540E9 /* LogCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCode.swift; path = Source/Classes/LogCode.swift; sourceTree = "<group>"; };
+		41DECAA76548BAE3D1AEE62BCD4433BC /* LogNetworkTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNetworkTableViewCell.swift; path = Source/Classes/LogNetworkTableViewCell.swift; sourceTree = "<group>"; };
+		432B05A003A8BDACD6505CAD6D369103 /* UserDefaults+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+.swift"; path = "Source/Classes/UserDefaults+.swift"; sourceTree = "<group>"; };
+		4368D3DFFCB9383F9DFED7C9D9F893C4 /* CrashListTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CrashListTableViewCell.xib; sourceTree = "<group>"; };
+		4517FEB2A52413AA19AB5A794EC144E7 /* DeLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DeLogger.modulemap; sourceTree = "<group>"; };
+		45663B78880EEA1807E240FF3B8DCCEC /* LogLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = Source/Classes/LogLevel.swift; sourceTree = "<group>"; };
+		4838863DA94ABD3908073806A21E2C7F /* Application.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Application.storyboard; sourceTree = "<group>"; };
+		48CBE1BDDC61930A2AE69D95269F5917 /* LogResponseBodyViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogResponseBodyViewModel.swift; path = Source/Classes/LogResponseBodyViewModel.swift; sourceTree = "<group>"; };
+		4A523612279D31113E637B664E7B5622 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C5876146D822FB7C6E4D6D684DE6B20 /* FilterLogTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterLogTableViewController.swift; path = Source/Classes/FilterLogTableViewController.swift; sourceTree = "<group>"; };
+		4E6B515D58473AD57DD8798713DD95DE /* LogsSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogsSettings.swift; path = Source/Classes/LogsSettings.swift; sourceTree = "<group>"; };
+		536FD61A04E90E9454E8BADF0740506D /* LogGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogGenerator.swift; path = Source/Classes/LogGenerator.swift; sourceTree = "<group>"; };
+		53A84B09F686EDA49BC0D958726A94F0 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Source/Classes/Log.swift; sourceTree = "<group>"; };
+		55811EF9CBF82DF229CABA2866C3EDE9 /* LogLevelFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevelFilter.swift; path = Source/Classes/LogLevelFilter.swift; sourceTree = "<group>"; };
+		57086D9A7582A26915FABBDB5E4EDA86 /* scroll-down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "scroll-down@2x.png"; sourceTree = "<group>"; };
+		5A3A64E41C087F96D1FCC750333456F6 /* DeLoggerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeLoggerManager.swift; path = Source/Classes/DeLoggerManager.swift; sourceTree = "<group>"; };
 		5C19EFA667E892846B316709A87FE743 /* Pods-DeLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5CADD9883966FA444970CCAECDBE8627 /* Pods-DeLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
-		668C599829F6D26BF47FE9035CE3551D /* DeLoggerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeLoggerManager.swift; path = Source/Classes/DeLoggerManager.swift; sourceTree = "<group>"; };
-		679DCDFDFEC8CDC186B2373CF1503246 /* Manager.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
-		685B1F4A8383CEC7B5586829F841DEDF /* DetailCrashTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailCrashTableViewController.swift; path = Source/Classes/DetailCrashTableViewController.swift; sourceTree = "<group>"; };
-		686977B4F9B83001067F15F9D2D05143 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		635D479258651821272CDD9CF337C5E4 /* FilterViewControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterViewControllerProtocol.swift; path = Source/Classes/FilterViewControllerProtocol.swift; sourceTree = "<group>"; };
 		6870658063D64CA1C49A69137FA1D34E /* Pods-DeLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeLogger_Tests-dummy.m"; sourceTree = "<group>"; };
-		6BFFA6B92146E53D7B3DE0A0C42B57BD /* LoggerCrash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerCrash.swift; path = Source/Classes/LoggerCrash.swift; sourceTree = "<group>"; };
-		6C1F023C49CC8DACC9991E8739A38BCF /* LogsSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogsSettings.swift; path = Source/Classes/LogsSettings.swift; sourceTree = "<group>"; };
-		6FD357004D6E2ABA6231EF7810AD5858 /* DeLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DeLogger.modulemap; sourceTree = "<group>"; };
+		690CE3BD5C7426606BB8A6BDB30BFD36 /* filter@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "filter@2x.png"; sourceTree = "<group>"; };
+		6D7EC5F7BB863E22E0EFAC9B7382CFC7 /* LogHeadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogHeadView.swift; path = Source/Classes/LogHeadView.swift; sourceTree = "<group>"; };
+		6E7600506CED7E52A543D138ED58639F /* DeLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeLogger.xcconfig; sourceTree = "<group>"; };
 		71815EA06F30D64F643F7FBB4AFC924F /* Pods-DeLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		73CEBCF7A7D5EECF8F3E27F4F2CBFE8F /* Pods_DeLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		74AD61E2E6945BD9C12DABDB8DD25743 /* LoggerFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerFormat.swift; path = Source/Classes/LoggerFormat.swift; sourceTree = "<group>"; };
-		77A5F4B148B18942C716B348217DF05B /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Source/Classes/Log.swift; sourceTree = "<group>"; };
-		780B5E81640EF1FE538831260214F2C6 /* StoreManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreManager.swift; path = Source/Classes/StoreManager.swift; sourceTree = "<group>"; };
-		8095361CE9B9CBA7623E2BB575ADB75B /* UITableView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+.swift"; path = "Source/Classes/UITableView+.swift"; sourceTree = "<group>"; };
-		813BCDD1E8F68CBE317A8DF2817E01FD /* LogResponseBodyViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogResponseBodyViewModel.swift; path = Source/Classes/LogResponseBodyViewModel.swift; sourceTree = "<group>"; };
+		729E87F6F90770ABF03E2452ADA3931A /* DetailCrashTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailCrashTableViewController.swift; path = Source/Classes/DetailCrashTableViewController.swift; sourceTree = "<group>"; };
+		73CEBCF7A7D5EECF8F3E27F4F2CBFE8F /* Pods_DeLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeLogger_Example.framework; path = "Pods-DeLogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75349B651813380ACD51D25EFFA9CD63 /* LoggerFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerFormat.swift; path = Source/Classes/LoggerFormat.swift; sourceTree = "<group>"; };
+		77183A866CA6C78400D9C2C386C9F95D /* LogTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LogTableViewCell.xib; sourceTree = "<group>"; };
+		79D3570CAD8F5B369F75F56F18CD0207 /* RequestLatencyTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RequestLatencyTableViewCell.xib; sourceTree = "<group>"; };
+		7A85DBB96B33E1A1E88E2DD4CDAB180E /* LogRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogRequest.swift; path = Source/Classes/LogRequest.swift; sourceTree = "<group>"; };
+		7C0B4834C2FCE5F6486A2528087F53EC /* DetailResponseBodyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailResponseBodyViewController.swift; path = Source/Classes/DetailResponseBodyViewController.swift; sourceTree = "<group>"; };
 		81A77438AF627E7F5D5762213E802C53 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82B9BC7652CE8B38A3ED1C304CB648D1 /* LogHeadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogHeadView.swift; path = Source/Classes/LogHeadView.swift; sourceTree = "<group>"; };
-		87637A27BFA07B89A208C6310B9862C8 /* DeLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = DeLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8782A81873106AFB251EA5F69F0A6A24 /* LogTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTableViewCell.swift; path = Source/Classes/LogTableViewCell.swift; sourceTree = "<group>"; };
-		8A0ADDC04558091A72BD8DB69C196607 /* ListLogViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListLogViewModel.swift; path = Source/Classes/ListLogViewModel.swift; sourceTree = "<group>"; };
+		881F5BC9EB4FFDF3D195D5C207EBFB95 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Source/Classes/Device.swift; sourceTree = "<group>"; };
 		8AFF4A1D5C61C2A4CE69CFED673099FC /* Pods-DeLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Example-resources.sh"; sourceTree = "<group>"; };
-		8FAFB73EC8583D48E6FDA3A4D973FF87 /* LogViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogViewNotification.swift; path = Source/Classes/LogViewNotification.swift; sourceTree = "<group>"; };
-		916C9BB821BD36C25AB4693B1C888524 /* DeLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeLogger-umbrella.h"; sourceTree = "<group>"; };
-		92BC16D7B7C7F3A15A7E9BFACDA12C66 /* RequestDataHttpBodyTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RequestDataHttpBodyTableViewCell.xib; sourceTree = "<group>"; };
-		935E8B19F1B15993EED9E755895B62AC /* RequestDataHttpBodyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestDataHttpBodyTableViewCell.swift; path = Source/Classes/RequestDataHttpBodyTableViewCell.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9408DE21CDA538805C12CDEAD149B448 /* FilterNetworkTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterNetworkTableViewController.swift; path = Source/Classes/FilterNetworkTableViewController.swift; sourceTree = "<group>"; };
-		9610E402C2679406442F30D306EC1457 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9877E8C48EBA770F4BDDE587236754BF /* RequestLatencyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestLatencyTableViewCell.swift; path = Source/Classes/RequestLatencyTableViewCell.swift; sourceTree = "<group>"; };
-		9B19C97A33409D5266CD7AA9393EA41D /* NotificationCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenter.swift; path = Source/Classes/NotificationCenter.swift; sourceTree = "<group>"; };
+		91FF74C310E862CF6FC7A1ED4B54E008 /* StoreManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreManager.swift; path = Source/Classes/StoreManager.swift; sourceTree = "<group>"; };
+		9256B9FEDDFAAA6FDF3049B13A068818 /* UITableView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+.swift"; path = "Source/Classes/UITableView+.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F5D010DE8D6B82BAAD07268DEADABD /* bugs-icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bugs-icon@2x.png"; sourceTree = "<group>"; };
+		9D040B747E69AE4AEE7EBF749A159CAB /* ContainerFilterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerFilterViewController.swift; path = Source/Classes/ContainerFilterViewController.swift; sourceTree = "<group>"; };
+		A087DD89129FD6DC41E87B9FA00466C1 /* LogNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNavigationViewController.swift; path = Source/Classes/LogNavigationViewController.swift; sourceTree = "<group>"; };
+		A4A3BC2829DC45DFDBA5FDAE78050C07 /* LogBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogBadgeView.swift; path = Source/Classes/LogBadgeView.swift; sourceTree = "<group>"; };
 		A741BFC64E00233FC7179117659EEDEE /* Pods-DeLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeLogger_Example-umbrella.h"; sourceTree = "<group>"; };
-		A7C022D2486E916611058F70455A06C2 /* LogBadgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogBadgeView.swift; path = Source/Classes/LogBadgeView.swift; sourceTree = "<group>"; };
-		AA0CD29F8F543795F61BC1F47ED9322D /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/Classes/Color.swift; sourceTree = "<group>"; };
+		A7AF6E87B96570BAA144C158A572E8C7 /* LoggerNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerNetwork.swift; path = Source/Classes/LoggerNetwork.swift; sourceTree = "<group>"; };
 		AAB738FF7368CE59BECB4F67FB3D789D /* Pods-DeLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ACB7CEFB7FD49057A657FBB43D158A12 /* DeLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB7CEFB7FD49057A657FBB43D158A12 /* DeLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeLogger.framework; path = DeLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE2CFDE92DF08E00BFCEFC55C8D24F44 /* logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		B0AED7CE4643A3E8A607B826A8B88BB9 /* ResponseDataTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ResponseDataTableViewCell.xib; sourceTree = "<group>"; };
+		B0DA66C2764ABE7B97D229855BE1F271 /* LogNetworkTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LogNetworkTableViewCell.xib; sourceTree = "<group>"; };
 		B22AEE6881E80BE4A3E85CDCDEAFD938 /* Pods-DeLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B4FC8F8FC339727F7D6D510678A92BE8 /* LogCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCode.swift; path = Source/Classes/LogCode.swift; sourceTree = "<group>"; };
+		B2622755D377D3350DCAE850D26A0895 /* ManagerWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerWindow.swift; path = Source/Classes/ManagerWindow.swift; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		B6632B746736D18AF07D195D268F67EB /* FilterLogTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterLogTableViewController.swift; path = Source/Classes/FilterLogTableViewController.swift; sourceTree = "<group>"; };
-		BC44C91014CF61340E7EF5655BD0B4DA /* LogGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogGenerator.swift; path = Source/Classes/LogGenerator.swift; sourceTree = "<group>"; };
-		BD86CF6136BFD4FE20DA56928A996ABF /* ApplicationInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationInformation.swift; path = Source/Classes/ApplicationInformation.swift; sourceTree = "<group>"; };
-		BDF748A5DE468EA6340E4159F74AD918 /* scroll-down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "scroll-down@2x.png"; sourceTree = "<group>"; };
-		BFB790959DB340B21C9CF80ED26565F5 /* DetailResponseBodyViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailResponseBodyViewController.swift; path = Source/Classes/DetailResponseBodyViewController.swift; sourceTree = "<group>"; };
+		BA628296829A48A126C04F138D36CFA0 /* CrashListTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrashListTableViewCell.swift; path = Source/Classes/CrashListTableViewCell.swift; sourceTree = "<group>"; };
+		BEF79BC991DF422EBA2EFCF350FA5903 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Classes/Logger.swift; sourceTree = "<group>"; };
 		C2A97A6379A0F972371159DE71B5F8D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C6745C16D75A3DD98CB5162724A82484 /* RequestHeadersTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RequestHeadersTableViewCell.xib; sourceTree = "<group>"; };
+		C4ACE6A2175A48ED34070DB47DC41250 /* DeLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeLogger-dummy.m"; sourceTree = "<group>"; };
+		CD7A9B47DCCEC2A0E367C70480D81698 /* DeviceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceModel.swift; path = Source/Classes/DeviceModel.swift; sourceTree = "<group>"; };
+		CEDB91CB48D15BACDE7102F6F60F3DDE /* DeLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeLogger-prefix.pch"; sourceTree = "<group>"; };
 		D1561979EDA3D353BD4E140E37F97AFB /* Pods-DeLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Tests-resources.sh"; sourceTree = "<group>"; };
-		D56AC5754A5490776BCDF525E6681F42 /* logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
-		D5C488394E4B9A2C2F9E87DE29C744F1 /* CrashListTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrashListTableViewCell.swift; path = Source/Classes/CrashListTableViewCell.swift; sourceTree = "<group>"; };
-		D5DDF8B2DA2F0DF3A80DBBF2787D1B41 /* LogNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNotification.swift; path = Source/Classes/LogNotification.swift; sourceTree = "<group>"; };
+		D53CB990483AA8BAF93716CC2A7BAE44 /* ManagerListLogViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerListLogViewController.swift; path = Source/Classes/ManagerListLogViewController.swift; sourceTree = "<group>"; };
 		D5E8037779F23629E2DE8BF0FDAF691C /* Pods-DeLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeLogger_Example-dummy.m"; sourceTree = "<group>"; };
-		D75A3486E33AC7C790B34260314C81B8 /* ResponseDataTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseDataTableViewCell.swift; path = Source/Classes/ResponseDataTableViewCell.swift; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8F726D90086C7AF417FF44E2E0B9140 /* LogNetworkTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNetworkTableViewCell.swift; path = Source/Classes/LogNetworkTableViewCell.swift; sourceTree = "<group>"; };
-		D9F33CCB62D9086D4212D85397C7552B /* UITableViewCell+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+.swift"; path = "Source/Classes/UITableViewCell+.swift"; sourceTree = "<group>"; };
 		DA2E707306B8B5B7D9F565AF248CD187 /* Pods-DeLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DAFC9A1606E0E5FF49086D9866E8D25C /* Pods-DeLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E0A9AC1995FA438A95DCBAD3B4395D73 /* RequestLatencyTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RequestLatencyTableViewCell.xib; sourceTree = "<group>"; };
-		E2ACC753AA5E3149053C3015F4EB56DE /* RequestErrorTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RequestErrorTableViewCell.xib; sourceTree = "<group>"; };
-		E9916A83960377394BACD023FB320720 /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Source/Classes/Device.swift; sourceTree = "<group>"; };
-		EACE892A7C8DCF49BF95850002767E91 /* DeLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeLogger.xcconfig; sourceTree = "<group>"; };
-		EB2F445467338AE9944824EDC52A970D /* LogNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNavigationViewController.swift; path = Source/Classes/LogNavigationViewController.swift; sourceTree = "<group>"; };
-		EB3C76633EEAAE3C3CFC93FDE904F9D9 /* bugs-icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bugs-icon@2x.png"; sourceTree = "<group>"; };
-		F16C6D5C08C87B7FAF2F2EEAEAD27379 /* Pods_DeLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2F0F2716964EEC93DF8384996341734 /* LogCrash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCrash.swift; path = Source/Classes/LogCrash.swift; sourceTree = "<group>"; };
-		F7B7E3633379BB0EC33A88D968189901 /* RequestHeadersTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestHeadersTableViewCell.swift; path = Source/Classes/RequestHeadersTableViewCell.swift; sourceTree = "<group>"; };
-		F9411B22591B596CDCBC0660304F3760 /* LogRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogRequest.swift; path = Source/Classes/LogRequest.swift; sourceTree = "<group>"; };
-		FB34E9DE46609E677D13EF6849D3558C /* InformationsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InformationsTableViewController.swift; path = Source/Classes/InformationsTableViewController.swift; sourceTree = "<group>"; };
+		DE358C0ACA44CE71F3FB7D33A8308237 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsTableViewController.swift; path = Source/Classes/SettingsTableViewController.swift; sourceTree = "<group>"; };
+		DF55DD07F78EC9A4C8406D58F3682ADB /* tabbar-logs@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar-logs@2x.png"; sourceTree = "<group>"; };
+		E5A8CA55FC817C2F8B1369F530FAA3E4 /* ApplicationInformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ApplicationInformation.swift; path = Source/Classes/ApplicationInformation.swift; sourceTree = "<group>"; };
+		E7B694FE3ED8DC7F49EBFCAF7F3743FA /* FilterNetworkTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterNetworkTableViewController.swift; path = Source/Classes/FilterNetworkTableViewController.swift; sourceTree = "<group>"; };
+		E8C4D2CC60B8A0F66404F3B9DA65FA83 /* ManagerListLogState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerListLogState.swift; path = Source/Classes/ManagerListLogState.swift; sourceTree = "<group>"; };
+		F15B36B20B477E18C0DCBE19AA322932 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/Classes/Color.swift; sourceTree = "<group>"; };
+		F16C6D5C08C87B7FAF2F2EEAEAD27379 /* Pods_DeLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeLogger_Tests.framework; path = "Pods-DeLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26D73676F3581C1EFD171B305D18EF8 /* Logs.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Logs.storyboard; sourceTree = "<group>"; };
+		FBA349B24BC6CA8D092EDD340E436AC0 /* LogViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogViewNotification.swift; path = Source/Classes/LogViewNotification.swift; sourceTree = "<group>"; };
 		FDF57B9B7AA856B146A864B404F72415 /* Pods-DeLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE3F52A6C14F9F47D399646EE0BBCAC2 /* tabbar-app@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar-app@2x.png"; sourceTree = "<group>"; };
+		FE760F419371C079C9458D0085E49572 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		FF680DD5BCFD0F05E3C73956A48BA22F /* LogTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogTableViewCell.swift; path = Source/Classes/LogTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +243,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		077AE54F541B054F22E322E9561C7D51 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4517FEB2A52413AA19AB5A794EC144E7 /* DeLogger.modulemap */,
+				6E7600506CED7E52A543D138ED58639F /* DeLogger.xcconfig */,
+				C4ACE6A2175A48ED34070DB47DC41250 /* DeLogger-dummy.m */,
+				CEDB91CB48D15BACDE7102F6F60F3DDE /* DeLogger-prefix.pch */,
+				197A07AD382D183E7B9BC23FE69A7150 /* DeLogger-umbrella.h */,
+				4A523612279D31113E637B664E7B5622 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DeLogger";
+			sourceTree = "<group>";
+		};
 		0D1DF3BA41DFD46C2FDE2BA748AE01A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,16 +267,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1997610E81B9EFBC3425AE49EE525CDA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				87637A27BFA07B89A208C6310B9862C8 /* DeLogger.podspec */,
-				9610E402C2679406442F30D306EC1457 /* LICENSE */,
-				33EDBA06604879D6661D8D1EBD7DA1BC /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		2E0ADF69EA0B978CFCBCCABDD3C646E8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,72 +274,6 @@
 				BB658ECB920EE58C1E8C736AFE2022BC /* Pods-DeLogger_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3678F6B3A3FBA20BF498020E8C87D3B8 /* DeLogger */ = {
-			isa = PBXGroup;
-			children = (
-				BD86CF6136BFD4FE20DA56928A996ABF /* ApplicationInformation.swift */,
-				AA0CD29F8F543795F61BC1F47ED9322D /* Color.swift */,
-				32D4C032B65AE24C765E05F8C0ED1AB6 /* ContainerFilterViewController.swift */,
-				D5C488394E4B9A2C2F9E87DE29C744F1 /* CrashListTableViewCell.swift */,
-				668C599829F6D26BF47FE9035CE3551D /* DeLoggerManager.swift */,
-				685B1F4A8383CEC7B5586829F841DEDF /* DetailCrashTableViewController.swift */,
-				3BF9131A13D372391A285DB6432441A7 /* DetailRequestViewController.swift */,
-				BFB790959DB340B21C9CF80ED26565F5 /* DetailResponseBodyViewController.swift */,
-				E9916A83960377394BACD023FB320720 /* Device.swift */,
-				4AEB67640C9A045FBDCA36A5ADBA8B08 /* DeviceModel.swift */,
-				B6632B746736D18AF07D195D268F67EB /* FilterLogTableViewController.swift */,
-				9408DE21CDA538805C12CDEAD149B448 /* FilterNetworkTableViewController.swift */,
-				51F039FA193BEF5591C243A2D8A62651 /* FilterViewControllerProtocol.swift */,
-				FB34E9DE46609E677D13EF6849D3558C /* InformationsTableViewController.swift */,
-				1C108516345BC9EC918B27FDE3F1901C /* ListCrashesViewController.swift */,
-				8A0ADDC04558091A72BD8DB69C196607 /* ListLogViewModel.swift */,
-				77A5F4B148B18942C716B348217DF05B /* Log.swift */,
-				A7C022D2486E916611058F70455A06C2 /* LogBadgeView.swift */,
-				1E5BE87D3409B3879C048C78665D0DEC /* LogCellProtocol.swift */,
-				B4FC8F8FC339727F7D6D510678A92BE8 /* LogCode.swift */,
-				32897E01C16A4F55D0D2FA6824F23317 /* LogCodeFilter.swift */,
-				F2F0F2716964EEC93DF8384996341734 /* LogCrash.swift */,
-				BC44C91014CF61340E7EF5655BD0B4DA /* LogGenerator.swift */,
-				46FF876AB180C25B8EA28CEEC24938B2 /* Logger.swift */,
-				6BFFA6B92146E53D7B3DE0A0C42B57BD /* LoggerCrash.swift */,
-				74AD61E2E6945BD9C12DABDB8DD25743 /* LoggerFormat.swift */,
-				3805397A70DA70D8AD146998EAF33BEB /* LoggerNetwork.swift */,
-				82B9BC7652CE8B38A3ED1C304CB648D1 /* LogHeadView.swift */,
-				3F4CF08F77D5B57986001DD9EF28520B /* LogLevel.swift */,
-				458B18F890E231260453CABEE9F6C616 /* LogLevelFilter.swift */,
-				EB2F445467338AE9944824EDC52A970D /* LogNavigationViewController.swift */,
-				D8F726D90086C7AF417FF44E2E0B9140 /* LogNetworkTableViewCell.swift */,
-				D5DDF8B2DA2F0DF3A80DBBF2787D1B41 /* LogNotification.swift */,
-				2FE1DF299430B5A7EEB334BDDCFA75BE /* LogProtocol.swift */,
-				F9411B22591B596CDCBC0660304F3760 /* LogRequest.swift */,
-				813BCDD1E8F68CBE317A8DF2817E01FD /* LogResponseBodyViewModel.swift */,
-				6C1F023C49CC8DACC9991E8739A38BCF /* LogsSettings.swift */,
-				0D1C6670C77CBAC24D3948088AA4CBD2 /* LogTabBarViewController.swift */,
-				8782A81873106AFB251EA5F69F0A6A24 /* LogTableViewCell.swift */,
-				8FAFB73EC8583D48E6FDA3A4D973FF87 /* LogViewNotification.swift */,
-				1299BC935B6A4EDBA0BDC48B84890751 /* ManagerListLogState.swift */,
-				10A2E19A26A85AFA298C9D0805B5F822 /* ManagerListLogViewController.swift */,
-				531A4BA13BC66947FDBB01273F427FC9 /* ManagerViewController.swift */,
-				3AC44A2C4D9EE570E82A2E0BFDD828AA /* ManagerWindow.swift */,
-				9B19C97A33409D5266CD7AA9393EA41D /* NotificationCenter.swift */,
-				935E8B19F1B15993EED9E755895B62AC /* RequestDataHttpBodyTableViewCell.swift */,
-				5B2FBC4FC88DF93CE734730D35E0F5A1 /* RequestErrorTableViewCell.swift */,
-				F7B7E3633379BB0EC33A88D968189901 /* RequestHeadersTableViewCell.swift */,
-				9877E8C48EBA770F4BDDE587236754BF /* RequestLatencyTableViewCell.swift */,
-				D75A3486E33AC7C790B34260314C81B8 /* ResponseDataTableViewCell.swift */,
-				35C928290EF38247CCF84B0E1798F2F8 /* SettingsTableViewController.swift */,
-				780B5E81640EF1FE538831260214F2C6 /* StoreManager.swift */,
-				8095361CE9B9CBA7623E2BB575ADB75B /* UITableView+.swift */,
-				D9F33CCB62D9086D4212D85397C7552B /* UITableViewCell+.swift */,
-				39B4DD78D3B0367CFDF3F0A59E3687FF /* UserDefaults+.swift */,
-				1997610E81B9EFBC3425AE49EE525CDA /* Pod */,
-				7EADBAC182DE50775C78EB372A3B30F1 /* Resources */,
-				DBD90301A2BE9450372BDE938F9C5DB7 /* Support Files */,
-			);
-			name = DeLogger;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -356,6 +291,14 @@
 				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		43ED099BCDE9D37448CEF251A709CCCE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E873AF49C15529FB43F4C3D6E2E9FFF9 /* DeLogger */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		63932C5C1B4962F38FAD085D0D11C424 /* Pods-DeLogger_Example */ = {
@@ -380,48 +323,36 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				B84CAF4DEFB4C7B2A4DE3A42C5F006A5 /* Development Pods */,
+				43ED099BCDE9D37448CEF251A709CCCE /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				0D1DF3BA41DFD46C2FDE2BA748AE01A3 /* Products */,
 				2E0ADF69EA0B978CFCBCCABDD3C646E8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		7EADBAC182DE50775C78EB372A3B30F1 /* Resources */ = {
+		8722CF99830D8B534D35D979AA8B459F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				DEA5B396899A0A930D5CD1967CC26A25 /* Assets */,
-				B0C7534EFB9D1C0B570BF18748EADD8A /* Classes */,
+				95F5D010DE8D6B82BAAD07268DEADABD /* bugs-icon@2x.png */,
+				FE760F419371C079C9458D0085E49572 /* close@2x.png */,
+				690CE3BD5C7426606BB8A6BDB30BFD36 /* filter@2x.png */,
+				AE2CFDE92DF08E00BFCEFC55C8D24F44 /* logo@2x.png */,
+				57086D9A7582A26915FABBDB5E4EDA86 /* scroll-down@2x.png */,
+				FE3F52A6C14F9F47D399646EE0BBCAC2 /* tabbar-app@2x.png */,
+				DF55DD07F78EC9A4C8406D58F3682ADB /* tabbar-logs@2x.png */,
+				05F4FBB71459B42A607CA61A1A9BC836 /* tabbar-settings@2x.png */,
+			);
+			name = Assets;
+			path = Source/Assets;
+			sourceTree = "<group>";
+		};
+		9FCE6D7E483CE44D779952D61AF40815 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8722CF99830D8B534D35D979AA8B459F /* Assets */,
+				D793E9AB375FCC54CE893EF8578F8E16 /* Classes */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		B0C7534EFB9D1C0B570BF18748EADD8A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				1417A7904EB87FDDC1CE086B24BCFCDA /* Application.storyboard */,
-				5593BDA1154FAA99AFC1B5FDD04C4A0B /* CrashListTableViewCell.xib */,
-				0F4C79609C55FE8CC1362D64AC0DC350 /* LogNetworkTableViewCell.xib */,
-				4E87A435ABAF36F8E92D850E2AEE5771 /* Logs.storyboard */,
-				10FAC734D5A05D6FA5BC67EFB16A5777 /* LogTableViewCell.xib */,
-				679DCDFDFEC8CDC186B2373CF1503246 /* Manager.storyboard */,
-				92BC16D7B7C7F3A15A7E9BFACDA12C66 /* RequestDataHttpBodyTableViewCell.xib */,
-				E2ACC753AA5E3149053C3015F4EB56DE /* RequestErrorTableViewCell.xib */,
-				C6745C16D75A3DD98CB5162724A82484 /* RequestHeadersTableViewCell.xib */,
-				E0A9AC1995FA438A95DCBAD3B4395D73 /* RequestLatencyTableViewCell.xib */,
-				438FF8EEAB33CDCD2D565A5908D06A3F /* ResponseDataTableViewCell.xib */,
-				3C0D966953C4C8841256F2283823C1B1 /* Settings.storyboard */,
-			);
-			name = Classes;
-			path = Source/Classes;
-			sourceTree = "<group>";
-		};
-		B84CAF4DEFB4C7B2A4DE3A42C5F006A5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3678F6B3A3FBA20BF498020E8C87D3B8 /* DeLogger */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BB658ECB920EE58C1E8C736AFE2022BC /* Pods-DeLogger_Tests */ = {
@@ -442,34 +373,89 @@
 			path = "Target Support Files/Pods-DeLogger_Tests";
 			sourceTree = "<group>";
 		};
-		DBD90301A2BE9450372BDE938F9C5DB7 /* Support Files */ = {
+		D793E9AB375FCC54CE893EF8578F8E16 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6FD357004D6E2ABA6231EF7810AD5858 /* DeLogger.modulemap */,
-				EACE892A7C8DCF49BF95850002767E91 /* DeLogger.xcconfig */,
-				461D00B9106B7DF00831952158AEECC5 /* DeLogger-dummy.m */,
-				1FEFE2648236DCCF01A0E3C838CE34C2 /* DeLogger-prefix.pch */,
-				916C9BB821BD36C25AB4693B1C888524 /* DeLogger-umbrella.h */,
-				07E5446EF93F1AC3B3692045D0F54E18 /* Info.plist */,
+				4838863DA94ABD3908073806A21E2C7F /* Application.storyboard */,
+				4368D3DFFCB9383F9DFED7C9D9F893C4 /* CrashListTableViewCell.xib */,
+				B0DA66C2764ABE7B97D229855BE1F271 /* LogNetworkTableViewCell.xib */,
+				F26D73676F3581C1EFD171B305D18EF8 /* Logs.storyboard */,
+				77183A866CA6C78400D9C2C386C9F95D /* LogTableViewCell.xib */,
+				35F2762A04B546031B58C6ECCC04F284 /* Manager.storyboard */,
+				35F5DD8D7E78F8BC8CCC80F4DDDEBDB8 /* RequestDataHttpBodyTableViewCell.xib */,
+				3A2DAD3097242066FDE56A9EB4F202A9 /* RequestErrorTableViewCell.xib */,
+				11E26C83C4A2ED8CC55D5B9B91BDBA0F /* RequestHeadersTableViewCell.xib */,
+				79D3570CAD8F5B369F75F56F18CD0207 /* RequestLatencyTableViewCell.xib */,
+				B0AED7CE4643A3E8A607B826A8B88BB9 /* ResponseDataTableViewCell.xib */,
+				29979391F3C0651CB811529F26F6BF50 /* Settings.storyboard */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/DeLogger";
+			name = Classes;
+			path = Source/Classes;
 			sourceTree = "<group>";
 		};
-		DEA5B396899A0A930D5CD1967CC26A25 /* Assets */ = {
+		E873AF49C15529FB43F4C3D6E2E9FFF9 /* DeLogger */ = {
 			isa = PBXGroup;
 			children = (
-				EB3C76633EEAAE3C3CFC93FDE904F9D9 /* bugs-icon@2x.png */,
-				686977B4F9B83001067F15F9D2D05143 /* close@2x.png */,
-				5AB6A478D32B417C4EDD18F74E526EE7 /* filter@2x.png */,
-				D56AC5754A5490776BCDF525E6681F42 /* logo@2x.png */,
-				BDF748A5DE468EA6340E4159F74AD918 /* scroll-down@2x.png */,
-				0B4FA9853B9D8C8CD2EB3271ECDD0B7F /* tabbar-app@2x.png */,
-				4DACA947031CFC4C79A4CD50D23555FB /* tabbar-logs@2x.png */,
-				50C51020C5109C49E08FFA9B3F68E322 /* tabbar-settings@2x.png */,
+				E5A8CA55FC817C2F8B1369F530FAA3E4 /* ApplicationInformation.swift */,
+				F15B36B20B477E18C0DCBE19AA322932 /* Color.swift */,
+				9D040B747E69AE4AEE7EBF749A159CAB /* ContainerFilterViewController.swift */,
+				BA628296829A48A126C04F138D36CFA0 /* CrashListTableViewCell.swift */,
+				5A3A64E41C087F96D1FCC750333456F6 /* DeLoggerManager.swift */,
+				729E87F6F90770ABF03E2452ADA3931A /* DetailCrashTableViewController.swift */,
+				05E256543AF9BEFFD752CA4AB8A20D73 /* DetailRequestViewController.swift */,
+				7C0B4834C2FCE5F6486A2528087F53EC /* DetailResponseBodyViewController.swift */,
+				881F5BC9EB4FFDF3D195D5C207EBFB95 /* Device.swift */,
+				CD7A9B47DCCEC2A0E367C70480D81698 /* DeviceModel.swift */,
+				4C5876146D822FB7C6E4D6D684DE6B20 /* FilterLogTableViewController.swift */,
+				E7B694FE3ED8DC7F49EBFCAF7F3743FA /* FilterNetworkTableViewController.swift */,
+				635D479258651821272CDD9CF337C5E4 /* FilterViewControllerProtocol.swift */,
+				10A3A7073FF3B1E832E6270CB8D06E18 /* InformationsTableViewController.swift */,
+				2F41C6A0D5C9AACC1C8F3A0439E9C9A4 /* ListCrashesViewController.swift */,
+				3AAE5F1B2E01B256B981AFB42BC6A760 /* ListLogViewModel.swift */,
+				53A84B09F686EDA49BC0D958726A94F0 /* Log.swift */,
+				A4A3BC2829DC45DFDBA5FDAE78050C07 /* LogBadgeView.swift */,
+				3540D99BD558077491D8221A2D8570C6 /* LogCellProtocol.swift */,
+				41C7EE9BBE579E2A3883DDF9339540E9 /* LogCode.swift */,
+				3E047C09CB45189EA187D9AC91611542 /* LogCodeFilter.swift */,
+				0B7704BBEFB1FBA05C5555841293F9F0 /* LogCrash.swift */,
+				536FD61A04E90E9454E8BADF0740506D /* LogGenerator.swift */,
+				BEF79BC991DF422EBA2EFCF350FA5903 /* Logger.swift */,
+				31E2BDA5827F358C11BA41BB0299B84C /* LoggerCrash.swift */,
+				75349B651813380ACD51D25EFFA9CD63 /* LoggerFormat.swift */,
+				A7AF6E87B96570BAA144C158A572E8C7 /* LoggerNetwork.swift */,
+				6D7EC5F7BB863E22E0EFAC9B7382CFC7 /* LogHeadView.swift */,
+				45663B78880EEA1807E240FF3B8DCCEC /* LogLevel.swift */,
+				55811EF9CBF82DF229CABA2866C3EDE9 /* LogLevelFilter.swift */,
+				A087DD89129FD6DC41E87B9FA00466C1 /* LogNavigationViewController.swift */,
+				41DECAA76548BAE3D1AEE62BCD4433BC /* LogNetworkTableViewCell.swift */,
+				11CD18CCFD0DF4843C6A1DAE6215A548 /* LogNotification.swift */,
+				20D84A348A89929324180BCF02A478B5 /* LogProtocol.swift */,
+				7A85DBB96B33E1A1E88E2DD4CDAB180E /* LogRequest.swift */,
+				48CBE1BDDC61930A2AE69D95269F5917 /* LogResponseBodyViewModel.swift */,
+				4E6B515D58473AD57DD8798713DD95DE /* LogsSettings.swift */,
+				0E97CEAF5B7EAEF12BAA521B507B222A /* LogTabBarViewController.swift */,
+				FF680DD5BCFD0F05E3C73956A48BA22F /* LogTableViewCell.swift */,
+				FBA349B24BC6CA8D092EDD340E436AC0 /* LogViewNotification.swift */,
+				E8C4D2CC60B8A0F66404F3B9DA65FA83 /* ManagerListLogState.swift */,
+				D53CB990483AA8BAF93716CC2A7BAE44 /* ManagerListLogViewController.swift */,
+				35E93522CB8F4ED040DA7BBE4F0389BE /* ManagerViewController.swift */,
+				B2622755D377D3350DCAE850D26A0895 /* ManagerWindow.swift */,
+				27E48FBDC9F447A945133F1B0648B91A /* NotificationCenter.swift */,
+				08D101405A44606F2EB38F9387D442E8 /* RequestDataHttpBodyTableViewCell.swift */,
+				30E1C6EB0745EE6F213131B3A69AA2E0 /* RequestErrorTableViewCell.swift */,
+				1482A21EB71C1C96821E25E6D9CB5820 /* RequestHeadersTableViewCell.swift */,
+				147F81870B055C302466010792A5B430 /* RequestLatencyTableViewCell.swift */,
+				2CB8D0FA6D598469E61C6A949630B677 /* ResponseDataTableViewCell.swift */,
+				DE358C0ACA44CE71F3FB7D33A8308237 /* SettingsTableViewController.swift */,
+				91FF74C310E862CF6FC7A1ED4B54E008 /* StoreManager.swift */,
+				9256B9FEDDFAAA6FDF3049B13A068818 /* UITableView+.swift */,
+				141EB245A48DDA0577AFDE6AA3A39A13 /* UITableViewCell+.swift */,
+				432B05A003A8BDACD6505CAD6D369103 /* UserDefaults+.swift */,
+				9FCE6D7E483CE44D779952D61AF40815 /* Resources */,
+				077AE54F541B054F22E322E9561C7D51 /* Support Files */,
 			);
-			name = Assets;
-			path = Source/Assets;
+			name = DeLogger;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -562,7 +548,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -787,7 +773,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -876,12 +862,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -922,7 +907,7 @@
 		};
 		A7BC60EE1E4661E2ABF37FEA0B90871F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EACE892A7C8DCF49BF95850002767E91 /* DeLogger.xcconfig */;
+			baseConfigurationReference = 6E7600506CED7E52A543D138ED58639F /* DeLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -988,7 +973,7 @@
 		};
 		F7C06F0E8A3F60C9D67AE2DAEEC1F48D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EACE892A7C8DCF49BF95850002767E91 /* DeLogger.xcconfig */;
+			baseConfigurationReference = 6E7600506CED7E52A543D138ED58639F /* DeLogger.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
