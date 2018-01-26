@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/liuxc123/DeLogger'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuxc123' => 'lxc_work@126.com' }
-  s.source           = { :git => 'https://github.com/liuxc123/DeLogger.git', :tag => "v0.1" }
+  s.source           = { :git => 'https://github.com/liuxc123/DeLogger.git', :tag => s.version }
   s.ios.deployment_target = '8.0'
   s.source_files = "DeLogger/Source/Classes/*.swift"
   s.resources = ["DeLogger/Source/Classes/*.xib", "DeLogger/Source/Classes/*.storyboard", "DeLogger/Source/Assets/*.png"]
