@@ -19,9 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         DeLogger.sharedManager.enable()
-        
-//        Dotzu.sharedManager.enable()
-    
+            
         return true
     }
 
