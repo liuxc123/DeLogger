@@ -105,7 +105,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014BB5AE48236C5CDAE4D215BCF6C52D /* Pods-DeLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeLogger_Example.modulemap"; sourceTree = "<group>"; };
+		014BB5AE48236C5CDAE4D215BCF6C52D /* Pods-DeLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DeLogger_Example.modulemap"; sourceTree = "<group>"; };
 		030A1728627886676D05F97E4882879C /* Pods-DeLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		05E256543AF9BEFFD752CA4AB8A20D73 /* DetailRequestViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailRequestViewController.swift; path = Source/Classes/DetailRequestViewController.swift; sourceTree = "<group>"; };
 		05F4FBB71459B42A607CA61A1A9BC836 /* tabbar-settings@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar-settings@2x.png"; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		2F41C6A0D5C9AACC1C8F3A0439E9C9A4 /* ListCrashesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListCrashesViewController.swift; path = Source/Classes/ListCrashesViewController.swift; sourceTree = "<group>"; };
 		30E1C6EB0745EE6F213131B3A69AA2E0 /* RequestErrorTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestErrorTableViewCell.swift; path = Source/Classes/RequestErrorTableViewCell.swift; sourceTree = "<group>"; };
 		31E2BDA5827F358C11BA41BB0299B84C /* LoggerCrash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerCrash.swift; path = Source/Classes/LoggerCrash.swift; sourceTree = "<group>"; };
-		34AFA7E74F1A528E91D249B541F346A6 /* Pods-DeLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DeLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		34AFA7E74F1A528E91D249B541F346A6 /* Pods-DeLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DeLogger_Tests.modulemap"; sourceTree = "<group>"; };
 		3540D99BD558077491D8221A2D8570C6 /* LogCellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCellProtocol.swift; path = Source/Classes/LogCellProtocol.swift; sourceTree = "<group>"; };
 		35E93522CB8F4ED040DA7BBE4F0389BE /* ManagerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerViewController.swift; path = Source/Classes/ManagerViewController.swift; sourceTree = "<group>"; };
 		35F2762A04B546031B58C6ECCC04F284 /* Manager.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Manager.storyboard; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		41DECAA76548BAE3D1AEE62BCD4433BC /* LogNetworkTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNetworkTableViewCell.swift; path = Source/Classes/LogNetworkTableViewCell.swift; sourceTree = "<group>"; };
 		432B05A003A8BDACD6505CAD6D369103 /* UserDefaults+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UserDefaults+.swift"; path = "Source/Classes/UserDefaults+.swift"; sourceTree = "<group>"; };
 		4368D3DFFCB9383F9DFED7C9D9F893C4 /* CrashListTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CrashListTableViewCell.xib; sourceTree = "<group>"; };
-		4517FEB2A52413AA19AB5A794EC144E7 /* DeLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DeLogger.modulemap; sourceTree = "<group>"; };
+		4517FEB2A52413AA19AB5A794EC144E7 /* DeLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DeLogger.modulemap; sourceTree = "<group>"; };
 		45663B78880EEA1807E240FF3B8DCCEC /* LogLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = Source/Classes/LogLevel.swift; sourceTree = "<group>"; };
 		4838863DA94ABD3908073806A21E2C7F /* Application.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Application.storyboard; sourceTree = "<group>"; };
 		48CBE1BDDC61930A2AE69D95269F5917 /* LogResponseBodyViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogResponseBodyViewModel.swift; path = Source/Classes/LogResponseBodyViewModel.swift; sourceTree = "<group>"; };
@@ -161,7 +161,7 @@
 		6E7600506CED7E52A543D138ED58639F /* DeLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeLogger.xcconfig; sourceTree = "<group>"; };
 		71815EA06F30D64F643F7FBB4AFC924F /* Pods-DeLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		729E87F6F90770ABF03E2452ADA3931A /* DetailCrashTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DetailCrashTableViewController.swift; path = Source/Classes/DetailCrashTableViewController.swift; sourceTree = "<group>"; };
-		73CEBCF7A7D5EECF8F3E27F4F2CBFE8F /* Pods_DeLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeLogger_Example.framework; path = "Pods-DeLogger_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73CEBCF7A7D5EECF8F3E27F4F2CBFE8F /* Pods_DeLogger_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75349B651813380ACD51D25EFFA9CD63 /* LoggerFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerFormat.swift; path = Source/Classes/LoggerFormat.swift; sourceTree = "<group>"; };
 		77183A866CA6C78400D9C2C386C9F95D /* LogTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LogTableViewCell.xib; sourceTree = "<group>"; };
 		79D3570CAD8F5B369F75F56F18CD0207 /* RequestLatencyTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RequestLatencyTableViewCell.xib; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		8AFF4A1D5C61C2A4CE69CFED673099FC /* Pods-DeLogger_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Example-resources.sh"; sourceTree = "<group>"; };
 		91FF74C310E862CF6FC7A1ED4B54E008 /* StoreManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoreManager.swift; path = Source/Classes/StoreManager.swift; sourceTree = "<group>"; };
 		9256B9FEDDFAAA6FDF3049B13A068818 /* UITableView+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+.swift"; path = "Source/Classes/UITableView+.swift"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95F5D010DE8D6B82BAAD07268DEADABD /* bugs-icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "bugs-icon@2x.png"; sourceTree = "<group>"; };
 		9D040B747E69AE4AEE7EBF749A159CAB /* ContainerFilterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContainerFilterViewController.swift; path = Source/Classes/ContainerFilterViewController.swift; sourceTree = "<group>"; };
 		A087DD89129FD6DC41E87B9FA00466C1 /* LogNavigationViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogNavigationViewController.swift; path = Source/Classes/LogNavigationViewController.swift; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 		A741BFC64E00233FC7179117659EEDEE /* Pods-DeLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeLogger_Example-umbrella.h"; sourceTree = "<group>"; };
 		A7AF6E87B96570BAA144C158A572E8C7 /* LoggerNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoggerNetwork.swift; path = Source/Classes/LoggerNetwork.swift; sourceTree = "<group>"; };
 		AAB738FF7368CE59BECB4F67FB3D789D /* Pods-DeLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DeLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ACB7CEFB7FD49057A657FBB43D158A12 /* DeLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeLogger.framework; path = DeLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB7CEFB7FD49057A657FBB43D158A12 /* DeLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2CFDE92DF08E00BFCEFC55C8D24F44 /* logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		B0AED7CE4643A3E8A607B826A8B88BB9 /* ResponseDataTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ResponseDataTableViewCell.xib; sourceTree = "<group>"; };
 		B0DA66C2764ABE7B97D229855BE1F271 /* LogNetworkTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = LogNetworkTableViewCell.xib; sourceTree = "<group>"; };
@@ -205,7 +205,7 @@
 		E7B694FE3ED8DC7F49EBFCAF7F3743FA /* FilterNetworkTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FilterNetworkTableViewController.swift; path = Source/Classes/FilterNetworkTableViewController.swift; sourceTree = "<group>"; };
 		E8C4D2CC60B8A0F66404F3B9DA65FA83 /* ManagerListLogState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerListLogState.swift; path = Source/Classes/ManagerListLogState.swift; sourceTree = "<group>"; };
 		F15B36B20B477E18C0DCBE19AA322932 /* Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Color.swift; path = Source/Classes/Color.swift; sourceTree = "<group>"; };
-		F16C6D5C08C87B7FAF2F2EEAEAD27379 /* Pods_DeLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DeLogger_Tests.framework; path = "Pods-DeLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16C6D5C08C87B7FAF2F2EEAEAD27379 /* Pods_DeLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26D73676F3581C1EFD171B305D18EF8 /* Logs.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Logs.storyboard; sourceTree = "<group>"; };
 		FBA349B24BC6CA8D092EDD340E436AC0 /* LogViewNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogViewNotification.swift; path = Source/Classes/LogViewNotification.swift; sourceTree = "<group>"; };
 		FDF57B9B7AA856B146A864B404F72415 /* Pods-DeLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -548,7 +548,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -867,6 +867,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
