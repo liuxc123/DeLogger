@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.author           = { 'liuxc123' => 'lxc_work@126.com' }
   s.source           = { :git => 'https://github.com/liuxc123/DeLogger.git', :tag => s.version }
   s.ios.deployment_target = '8.0'
-  s.source_files = "Source/Classes/*.swift"
-  s.resources = ["Source/Classes/*.xib", "Source/Classes/*.storyboard", "Source/Assets/*.png"]
+  s.source_files = "Source/Classes/**/*"
+  s.resources = "Source/Assets/**/*"
   s.ios.frameworks = 'UIKit', 'Foundation'
   s.requires_arc = true
 

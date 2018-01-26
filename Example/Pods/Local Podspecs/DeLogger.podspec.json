@@ -18,12 +18,8 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Source/Classes/*.swift",
-  "resources": [
-    "Source/Classes/*.xib",
-    "Source/Classes/*.storyboard",
-    "Source/Assets/*.png"
-  ],
+  "source_files": "Source/Classes/**/*",
+  "resources": "Source/Assets/**/*",
   "ios": {
     "frameworks": [
       "UIKit",
