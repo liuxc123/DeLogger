@@ -37,6 +37,21 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
         let managerTabBarController = UITabBarController()
         managerTabBarController.tabBar.barTintColor = UIColor.black
         managerTabBarController.tabBar.tintColor = Color.mainGreen
+        
+        var normalAttrs = [NSAttributedStringKey : Any]()
+        normalAttrs[NSAttributedStringKey.foregroundColor] = UIColor.gray
+        
+        // set the text color for selected state
+        // 选中状态下的文字属性
+        var selectedAttrs = [NSAttributedStringKey : Any]()
+        selectedAttrs[NSAttributedStringKey.foregroundColor] = Color.mainGreen
+        
+        // set the text Attributes
+        // 设置文字属性
+        let tabBar = UITabBarItem.appearance()
+        tabBar.setTitleTextAttributes(normalAttrs, for: .normal)
+        tabBar.setTitleTextAttributes(selectedAttrs, for: .selected)
+        
         managerTabBarController.viewControllers = getViewControllers()
         
         self.present(managerTabBarController, animated: true, completion: nil)
