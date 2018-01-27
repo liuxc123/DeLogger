@@ -7,7 +7,7 @@
 import UIKit
 
 public class DeLogger: NSObject {
-    public static let sharedManager = DeLogger()
+    public static let shared = DeLogger()
     private var window: ManagerWindow
     fileprivate let controller = ManagerViewController()
     private let cache = NSCache<AnyObject, AnyObject>()

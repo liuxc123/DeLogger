@@ -13,9 +13,9 @@ class RootTableViewController: UITableViewController {
 
     @IBAction func switchChanged(_ sender: UISwitch) {
         if sender.isOn {
-            DeLogger.sharedManager.enable()
+            DeLogger.shared.enable()
         } else {
-            DeLogger.sharedManager.disable()
+            DeLogger.shared.disable()
         }
     }
 

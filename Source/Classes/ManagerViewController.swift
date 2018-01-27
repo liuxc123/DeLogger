@@ -32,7 +32,7 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
     }
 
     func didTapButton() {
-        DeLogger.sharedManager.displayedList = true
+        DeLogger.shared.displayedList = true
         
         let managerTabBarController = UITabBarController()
         managerTabBarController.tabBar.barTintColor = UIColor.black
@@ -43,7 +43,7 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
     }
 
     override func viewWillAppear(_ animated: Bool) {
-        DeLogger.sharedManager.displayedList = false
+        DeLogger.shared.displayedList = false
     }
 
     @objc func panDidFire(panner: UIPanGestureRecognizer) {
@@ -106,7 +106,7 @@ class ManagerViewController: UIViewController, LogHeadViewDelegate {
     }
 
     func shouldReceive(point: CGPoint) -> Bool {
-        if DeLogger.sharedManager.displayedList {
+        if DeLogger.shared.displayedList {
             return true
         }
         return self.button.frame.contains(point)

@@ -18,7 +18,7 @@ class RequestTestTableViewController: UITableViewController {
         super.viewDidLoad()
 
         let configuration = URLSessionConfiguration.default
-        DeLogger.sharedManager.addLogger(session: configuration)
+        DeLogger.shared.addLogger(session: configuration)
         session = URLSession(configuration: configuration)
     }
 
