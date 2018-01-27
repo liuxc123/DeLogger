@@ -41,19 +41,18 @@ class StoreManager<T> where T: NSCoding {
     func logs() -> [T] {
         guard let data = UserDefaults.standard.object(forKey: store.rawValue) as? NSData else {return []}
         
-        if let dataArchive =  NSKeyedUnarchiver.unarchiveObject(with: data as Data) {
-            return dataArchive as? [T] ?? []
+        do {
+            if #available(iOS 9.0, *) {
+                let dataArchive = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data as Data)
+                return dataArchive as? [T] ?? []
+            } else {
+                // Fallback on earlier versions
+                let dataArchive = NSKeyedUnarchiver.unarchiveObject(with: data as Data)
+                return dataArchive as? [T] ?? []
+            }
+        } catch {
+            return []
         }
-        
-        return []
-//        do {
-//            let dataArchive = try NSKeyedUnarchiver.unarchiveTopLevelObjectWithData(data)
-//
-//                // ...
-//
-//        } catch {
-//            return []
-//        }
     }
 
     func reset() {
