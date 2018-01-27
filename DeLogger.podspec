@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'DeLogger'
-  s.version          = '0.1'
+  s.version          = '0.2'
   s.summary          = 'iOS debugger tool for iOS developer. Display logs, network request, device informations, crash logs while using the app.'
   s.description  = <<-DESC
                     DeLogger is an debugger tool for iOS, with the following features:
